@@ -3,9 +3,9 @@ import './style/main.scss'
 import {
     GLTFLoader
 } from 'three/examples/jsm/loaders/GLTFLoader'
-// import {
-//     RGBELoader
-// } from 'three/examples/jsm/loaders/RGBELoader'
+import {
+    RGBELoader
+} from 'three/examples/jsm/loaders/RGBELoader'
 import {
     gsap
 } from 'gsap'
@@ -85,11 +85,11 @@ scene.add(spotLight)
 
 // ----------------- HDRI -----------------
 
-// new RGBELoader()
-//     .load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
-//         texture.mapping = THREE.EquirectangularReflectionMapping
-//         scene.environment = texture
-//     })
+new RGBELoader()
+    .load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
+        texture.mapping = THREE.EquirectangularReflectionMapping
+        scene.environment = texture
+    })
 
 // ----------------- 3d models -----------------
 
@@ -457,7 +457,7 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.toneMapping = THREE.ACESFilmicToneMapping
 renderer.toneMappingExposure = 1
-// renderer.outputEncoding = THREE.sRGBEncoding
+renderer.outputEncoding = THREE.sRGBEncoding
 
 renderer.setSize(sizes.width, sizes.height)
 document.body.appendChild(renderer.domElement)

@@ -9,7 +9,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name][contenthash].js',
-        clean: true
+        clean: true,
+        assetModuleFilename: '[name][ext]'
     },
     devtool: 'source-map',
     devServer: {
@@ -32,7 +33,21 @@ module.exports = {
                 ]
             },
             {
-                test: /.\js$/,
+                test: /\.html$/,
+                use: ["html-loader"]
+            },
+            // {
+            //     test: /\.(svg|png|jpg|jpeg|gif)$/,
+            //     use: {
+            //         loader: 'file-loader',
+            //         options: {
+            //             name: '[name].[ext]',
+            //             outputPath: 'images'
+            //         }
+            //     }
+            // },
+            {
+                test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',

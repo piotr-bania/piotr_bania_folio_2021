@@ -47,15 +47,24 @@ module.exports = {
             //     }
             // },
             {
-                test: /\.gltf$/,
+                test: /\.(glb|gltf)$/,
                 use: [{
-                        loader: 'file-loader',
-                        options: {
-                            esModule: false
-                        },
-                    },
-                    '@vxna/gltf-loader',
-                ],
+                    loader: 'file-loader',
+                    options: {
+                        outputPath: 'assets/models/'
+                    }
+                }]
+            },
+            {
+                // test: /\.gltf$/,
+                // use: [{
+                //         loader: 'file-loader',
+                //         options: {
+                //             esModule: false
+                //         },
+                //     },
+                //     '@vxna/gltf-loader',
+                // ],
             },
             {
                 test: /\.js$/,

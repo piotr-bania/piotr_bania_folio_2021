@@ -62403,35 +62403,36 @@ __webpack_require__.r(__webpack_exports__);
 var canvas_1 = document.querySelector('canvas.canvas-1'); // ----------------- Scene -----------------
 
 var scene = new three__WEBPACK_IMPORTED_MODULE_3__.Scene(); // ----------------- Particles -----------------
-
-var textureLoader = new three__WEBPACK_IMPORTED_MODULE_3__.TextureLoader();
-var particleTexture = textureLoader.load('../assets/particles/twirl_03.png'); // Geometry
-
-var particlesGeometry = new three__WEBPACK_IMPORTED_MODULE_3__.BufferGeometry();
-var count = 20000;
-var positions = new Float32Array(count * 3);
-
-for (var i = 0; i < count * 3; i++) {
-  positions[i] = (Math.random() - 0.5) * 100;
-}
-
-particlesGeometry.setAttribute('position', new three__WEBPACK_IMPORTED_MODULE_3__.BufferAttribute(positions, 3)); // Material
-
-var particlesMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.PointsMaterial();
-particlesMaterial.size = 0.25;
-particlesMaterial.sizeAttenuation = true;
-particlesMaterial.color = new three__WEBPACK_IMPORTED_MODULE_3__.Color('#7161F5');
-particlesMaterial.transparent = true;
-particlesMaterial.alphaMap = particleTexture; // Points
-
-var particles = new three__WEBPACK_IMPORTED_MODULE_3__.Points(particlesGeometry, particlesMaterial);
-scene.add(particles);
-gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(particles.rotation, {
-  duration: 1000,
-  delay: 0,
-  y: -5,
-  repeat: -1
-}); // ----------------- Sizes -----------------
+// const textureLoader = new THREE.TextureLoader()
+// const particleTexture = textureLoader.load('../assets/particles/twirl_03.png')
+// // Geometry
+// const particlesGeometry = new THREE.BufferGeometry()
+// const count = 20000
+// const positions = new Float32Array(count * 3)
+// for (let i = 0; i < count * 3; i++) {
+//     positions[i] = (Math.random() - 0.5) * 100
+// }
+// particlesGeometry.setAttribute(
+//     'position',
+//     new THREE.BufferAttribute(positions, 3)
+// )
+// // Material
+// const particlesMaterial = new THREE.PointsMaterial()
+// particlesMaterial.size = 0.25
+// particlesMaterial.sizeAttenuation = true
+// particlesMaterial.color = new THREE.Color('#7161F5')
+// particlesMaterial.transparent = true
+// particlesMaterial.alphaMap = particleTexture
+// // Points
+// const particles = new THREE.Points(particlesGeometry, particlesMaterial)
+// scene.add(particles)
+// gsap.to(particles.rotation, {
+//     duration: 1000,
+//     delay: 0,
+//     y: -5,
+//     repeat: -1
+// })
+// ----------------- Sizes -----------------
 
 var sizes = {
   width: window.innerWidth,
@@ -62843,4 +62844,4 @@ window.addEventListener('resize', onWindowResize, false);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle8ce0fda324f4f7f9daaf.js.map
+//# sourceMappingURL=bundle53da6a8d09aa49d64bb2.js.map

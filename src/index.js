@@ -91,6 +91,14 @@ new RGBELoader()
         scene.environment = texture
     })
 
+// ----------------- 3d geometry -----------------
+
+const geometry = new THREE.BoxGeometry(3, 1, 2)
+const material = new THREE.MeshLambertMaterial({ color: 0xfb8e00 })
+const mesh = new THREE.Mesh(geometry, material)
+mesh.rotation.set(1, 2, 0.5)
+scene.add(mesh)
+
 // ----------------- 3d models -----------------
 
 let modelsDistance = 5

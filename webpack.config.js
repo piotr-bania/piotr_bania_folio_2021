@@ -36,35 +36,19 @@ module.exports = {
                 test: /\.html$/,
                 use: ["html-loader"]
             },
-            // {
-            //     test: /\.(svg|png|jpg|jpeg|gif)$/,
-            //     use: {
-            //         loader: 'file-loader',
-            //         options: {
-            //             name: '[name].[ext]',
-            //             outputPath: 'images'
-            //         }
-            //     }
-            // },
             {
-                test: /\.(glb|gltf)$/,
-                use: [{
-                    loader: 'file-loader',
-                    options: {
-                        outputPath: 'assets/models/'
-                    }
-                }]
+                test: /\.gltf$/,
+                loader: "@vxna/gltf-loader",
+                options: {
+                    inline: true
+                }
             },
             {
-                // test: /\.gltf$/,
-                // use: [{
-                //         loader: 'file-loader',
-                //         options: {
-                //             esModule: false
-                //         },
-                //     },
-                //     '@vxna/gltf-loader',
-                // ],
+                test: /\.(bin|png|jpe?g)$/,
+                loader: "file-loader",
+                options: {
+                    esModule: false
+                }
             },
             {
                 test: /\.js$/,

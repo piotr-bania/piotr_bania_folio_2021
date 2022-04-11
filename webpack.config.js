@@ -36,20 +36,20 @@ module.exports = {
                 test: /\.html$/,
                 use: ["html-loader"]
             },
-            {
-                test: /\.gltf$/,
-                loader: "@vxna/gltf-loader",
-                options: {
-                    inline: true
-                }
-            },
-            {
-                test: /\.(bin|png|jpe?g)$/,
-                loader: "file-loader",
-                options: {
-                    esModule: false
-                }
-            },
+            // {
+            //     test: /\.gltf$/,
+            //     loader: "@vxna/gltf-loader",
+            //     options: {
+            //         inline: true
+            //     }
+            // },
+            // {
+            //     test: /\.(bin|png|jpe?g)$/,
+            //     loader: "file-loader",
+            //     options: {
+            //         esModule: false
+            //     }
+            // },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,

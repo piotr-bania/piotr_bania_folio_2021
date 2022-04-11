@@ -3,9 +3,9 @@ import './style/main.scss'
 import {
     GLTFLoader
 } from 'three/examples/jsm/loaders/GLTFLoader'
-import {
-    RGBELoader
-} from 'three/examples/jsm/loaders/RGBELoader'
+// import {
+//     RGBELoader
+// } from 'three/examples/jsm/loaders/RGBELoader'
 import {
     gsap
 } from 'gsap'
@@ -72,24 +72,24 @@ camera.position.z = 6
 
 // ----------------- Lights -----------------
 
-// const hemiLight = new THREE.HemisphereLight(0xffeeb1, 0x080820, 4)
-// scene.add(hemiLight)
+const hemiLight = new THREE.HemisphereLight(0xffeeb1, 0x080820, 4)
+scene.add(hemiLight)
 
-// const spotLight = new THREE.SpotLight(0xffffff, 4)
-// spotLight.position.set(-50, 50, 50)
-// spotLight.castShadow = true
-// spotLight.shadow.bias = -0.0001
-// spotLight.shadow.mapSize.width = 1024 * 4
-// spotLight.shadow.mapSize.height = 1024 * 4
-// scene.add(spotLight)
+const spotLight = new THREE.SpotLight(0xffffff, 4)
+spotLight.position.set(-50, 50, 50)
+spotLight.castShadow = true
+spotLight.shadow.bias = -0.0001
+spotLight.shadow.mapSize.width = 1024 * 4
+spotLight.shadow.mapSize.height = 1024 * 4
+scene.add(spotLight)
 
 // ----------------- HDRI -----------------
 
-new RGBELoader()
-    .load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
-        texture.mapping = THREE.EquirectangularReflectionMapping
-        scene.environment = texture
-    })
+// new RGBELoader()
+//     .load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
+//         texture.mapping = THREE.EquirectangularReflectionMapping
+//         scene.environment = texture
+//     })
 
 // ----------------- 3d models -----------------
 
@@ -457,7 +457,7 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.toneMapping = THREE.ACESFilmicToneMapping
 renderer.toneMappingExposure = 1
-renderer.outputEncoding = THREE.sRGBEncoding
+// renderer.outputEncoding = THREE.sRGBEncoding
 
 renderer.setSize(sizes.width, sizes.height)
 document.body.appendChild(renderer.domElement)

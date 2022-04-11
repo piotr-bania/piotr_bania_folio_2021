@@ -16,12 +16,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/Expansiva/Expansiva.otf */ "./src/assets/fonts/Expansiva/Expansiva.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/expansiva/Expansiva-bold.otf */ "./src/assets/fonts/expansiva/Expansiva-bold.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/Arkitech/Arkitech-Light.ttf */ "./src/assets/fonts/Arkitech/Arkitech-Light.ttf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/Arkitech/Arkitech-Medium.ttf */ "./src/assets/fonts/Arkitech/Arkitech-Medium.ttf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/PiotrBania.svg */ "./src/assets/images/backgrounds/PiotrBania.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/Portfolio.svg */ "./src/assets/images/backgrounds/Portfolio.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/Lab.svg */ "./src/assets/images/backgrounds/Lab.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/Skills.svg */ "./src/assets/images/backgrounds/Skills.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/About.svg */ "./src/assets/images/backgrounds/About.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/images/backgrounds/contact.svg */ "./src/assets/images/backgrounds/contact.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
+var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
+var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --purple: #7161F5;\n  --green: #61F570;\n  --red: #F57061;\n  --darker: #040117;\n  --dark: #07032E;\n  --light: #EBE8FE;\n  --lighter: #FFFFFF;\n  --background-text: rgba(113, 97, 245, 0.05);\n  --grey-text: #ABABAB;\n  --body-font: \"obvia\";\n  --header-font: \"Arkitech Light\";\n  --header-font-bold: \"Arkitech Medium\";\n  --header-alternative: \"Expansiva\";\n  --header-alternative-bold: \"Expansiva Bold\";\n  --links-font-size: 12px;\n  --text-font-size: 16px;\n  --main-shadow:\n      2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),\n      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.05),\n      12.5px 12.5px 10px rgba(0, 0, 0, 0.042),\n      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.035),\n      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.028),\n      100px 100px 80px rgba(0, 0, 0, 0.02);\n  --hover-shadow:\n      2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1),\n      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.072),\n      12.5px 12.5px 10px rgba(0, 0, 0, 0.06),\n      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),\n      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.04),\n      100px 100px 80px rgba(0, 0, 0, 0.028);\n  --animate-duration: 1s;\n  --animate-delay: 1s;\n  --animate-repeat: 1;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  font-family: var(--body-font);\n  font-size: var(--text-font-size);\n  line-height: 1.6;\n  color: var(--light);\n  user-select: none;\n}\n\n.canvas-1 {\n  position: fixed;\n  top: 0;\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.logo {\n  position: fixed;\n  width: 70px;\n  height: 70px;\n  left: 5%;\n  top: 5%;\n  z-index: 100;\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss"],"names":[],"mappings":"AAIA;EAEI,iBAAA;EACA,gBAAA;EACA,cAAA;EACA,iBAAA;EACA,eAAA;EACA,gBAAA;EACA,kBAAA;EACA,2CAAA;EACA,oBAAA;EAGA,oBAAA;EACA,+BAAA;EACA,qCAAA;EACA,iCAAA;EACA,2CAAA;EAGA,uBAAA;EACA,sBAAA;EAGA;;;;;;0CAAA;EAOA;;;;;;2CAAA;EASA,sBAAA;EACA,mBAAA;EACA,mBAAA;AAZJ;;AAeA;;;EAGI,sBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,gBAAA;AAZJ;;AAeA;EACI,mBAAA;EACA,uBAAA;EACA,YAAA;AAZJ;;AAeA;EACI,6BAAA;EACA,gCAAA;EACA,gBAAA;EACA,mBAAA;EACA,iBAAA;AAZJ;;AAiBA;EACI,eAAA;EACA,MAAA;EACA,eAAA;EACA,gBAAA;AAdJ;;AAmBA;EACI,eAAA;EACA,WAAA;EACA,YAAA;EACA,QAAA;EACA,OAAA;EACA,YAAA;AAhBJ","sourcesContent":["\r\n\r\n// ------------------------------ Variables ------------------------------\r\n\r\n:root {\r\n    // Colors\r\n    --purple: #7161F5;\r\n    --green: #61F570;\r\n    --red: #F57061;\r\n    --darker: #040117;\r\n    --dark: #07032E;\r\n    --light: #EBE8FE;\r\n    --lighter: #FFFFFF;\r\n    --background-text: rgba(113, 97, 245, 0.05);\r\n    --grey-text: #ABABAB;\r\n\r\n    // Font tyoe\r\n    --body-font: 'obvia';\r\n    --header-font: 'Arkitech Light';\r\n    --header-font-bold: 'Arkitech Medium';\r\n    --header-alternative: 'Expansiva';\r\n    --header-alternative-bold: 'Expansiva Bold';\r\n\r\n    // Font size\r\n    --links-font-size: 12px;\r\n    --text-font-size: 16px;\r\n\r\n    // Shadows\r\n    --main-shadow:\r\n        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),\r\n        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.05),\r\n        12.5px 12.5px 10px rgba(0, 0, 0, 0.042),\r\n        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.035),\r\n        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.028),\r\n        100px 100px 80px rgba(0, 0, 0, 0.02);\r\n    --hover-shadow:\r\n        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1),\r\n        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.072),\r\n        12.5px 12.5px 10px rgba(0, 0, 0, 0.06),\r\n        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),\r\n        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.04),\r\n        100px 100px 80px rgba(0, 0, 0, 0.028);\r\n\r\n    // Animation\r\n    --animate-duration: 1s;\r\n    --animate-delay: 1s;\r\n    --animate-repeat: 1;\r\n}\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    font-family: var(--body-font);\r\n    font-size: var(--text-font-size);\r\n    line-height: 1.6;\r\n    color: var(--light);\r\n    user-select: none;\r\n}\r\n\r\n// ------------------------------ Canvas ------------------------------\r\n\r\n.canvas-1 {\r\n    position: fixed;\r\n    top: 0;\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\r\n\r\n// ------------------------------ Header ------------------------------\r\n\r\n.logo {\r\n    position: fixed;\r\n    width: 70px;\r\n    height: 70px;\r\n    left: 5%;\r\n    top: 5%;\r\n    z-index: 100;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Expansiva\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n@font-face {\n  font-family: \"Expansiva Bold\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n@font-face {\n  font-family: \"Arkitech Light\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n@font-face {\n  font-family: \"Arkitech Medium\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n:root {\n  --purple: #7161F5;\n  --green: #61F570;\n  --red: #F57061;\n  --darker: #040117;\n  --dark: #07032E;\n  --light: #EBE8FE;\n  --lighter: #FFFFFF;\n  --background-text: rgba(113, 97, 245, 0.05);\n  --grey-text: #ABABAB;\n  --body-font: \"obvia\";\n  --header-font: \"Arkitech Light\";\n  --header-font-bold: \"Arkitech Medium\";\n  --header-alternative: \"Expansiva\";\n  --header-alternative-bold: \"Expansiva Bold\";\n  --links-font-size: 12px;\n  --text-font-size: 16px;\n  --main-shadow:\n      2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),\n      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.05),\n      12.5px 12.5px 10px rgba(0, 0, 0, 0.042),\n      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.035),\n      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.028),\n      100px 100px 80px rgba(0, 0, 0, 0.02);\n  --hover-shadow:\n      2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1),\n      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.072),\n      12.5px 12.5px 10px rgba(0, 0, 0, 0.06),\n      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),\n      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.04),\n      100px 100px 80px rgba(0, 0, 0, 0.028);\n  --animate-duration: 1s;\n  --animate-delay: 1s;\n  --animate-repeat: 1;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  font-family: var(--body-font);\n  font-size: var(--text-font-size);\n  line-height: 1.6;\n  color: var(--light);\n  user-select: none;\n}\n\nh1 {\n  font-family: var(--header-alternative);\n  font-size: 2.074rem;\n  line-height: 1.2;\n  color: var(--light);\n  padding-bottom: 10px;\n}\n\nh2 {\n  font-family: var(--header-alternative);\n  font-size: 1.728rem;\n  line-height: 1.2;\n  color: var(--grey-text);\n  padding-bottom: 10px;\n}\n\nh3 {\n  font-family: var(--header-alternative);\n  font-size: 1.44rem;\n  line-height: 1.2;\n  color: var(--red);\n  padding-bottom: 10px;\n}\n\np {\n  font-family: var(--body-font);\n  font-size: var(--text-font-size);\n  line-height: 1.6;\n}\n\na {\n  text-shadow: var(--main-shadow);\n  font-family: var(--header-font);\n  font-size: var(--links-font-size);\n  color: var(--grey-text);\n  transition: all 0.3s ease-in-out;\n}\n\na:hover {\n  color: var(--green);\n}\n\nsection {\n  min-height: 100vh;\n  min-width: 100vw;\n  overflow: hidden;\n  display: flex;\n  padding: 75px 0;\n  align-items: center;\n  justify-content: center;\n  flex-wrap: wrap;\n  position: relative;\n}\n\n.container {\n  display: grid;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 80%;\n  margin: 0 auto;\n  max-width: 1468px;\n  z-index: 80;\n}\n\n#section-a {\n  height: 100vh;\n}\n#section-a .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n}\n#section-a h1 {\n  color: var(--light);\n}\n\n#section-b .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n}\n\n#section-c .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n}\n\n#section-d .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n\n#section-e .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + ");\n}\n\n#section-f .container {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + ");\n}\n\n#section-a {\n  background: linear-gradient(to right, var(--darker), var(--dark));\n}\n#section-a .container {\n  background-position: left;\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n\n#section-b,\n#section-d,\n#section-f {\n  background: linear-gradient(to left, var(--darker), var(--dark));\n  padding-top: 100px;\n  padding-bottom: 100px;\n}\n#section-b .container,\n#section-d .container,\n#section-f .container {\n  background-position: left;\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n\n#section-c,\n#section-e {\n  background-image: linear-gradient(to left, var(--lighter), var(--light));\n  padding-top: 100px;\n  padding-bottom: 100px;\n}\n#section-c .container,\n#section-e .container {\n  background-position: right;\n  background-repeat: no-repeat;\n  background-size: contain;\n}\n#section-c h1,\n#section-c p,\n#section-e h1,\n#section-e p {\n  color: var(--dark);\n}\n\n.logo {\n  position: fixed;\n  width: 70px;\n  height: 70px;\n  left: 5%;\n  top: 5%;\n  z-index: 100;\n}\n\n.menu {\n  position: fixed;\n  width: 100%;\n  right: 10vw;\n  top: 57px;\n  z-index: 90;\n  display: flex;\n  justify-content: end;\n  align-content: center;\n  visibility: visible;\n}\n.menu ul {\n  display: flex;\n  padding-top: 9px;\n}\n.menu ul li {\n  padding-right: 3vw;\n}\n\n.open-menu {\n  position: fixed;\n  right: 5%;\n  top: 5%;\n  width: 60px;\n  height: 60px;\n  padding: 7px;\n  cursor: pointer;\n  z-index: 98;\n  visibility: hidden;\n}\n\n.closed-menu {\n  position: fixed;\n  right: 5%;\n  top: 5%;\n  width: 60px;\n  height: 60px;\n  padding: 7px;\n  cursor: pointer;\n  z-index: 98;\n  visibility: hidden;\n}\n\n#nav-content {\n  position: fixed;\n  right: 0;\n  top: 0;\n  width: 75%;\n  height: 100%;\n  max-width: 600px;\n  z-index: 99;\n  background: linear-gradient(90deg, var(--dark) 0%, var(--darker) 100%);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n  transform: translateX(105%);\n  transition: 0.5s ease transform;\n  visibility: hidden;\n}\n#nav-content a {\n  display: inline-block;\n  width: 100%;\n  color: var(--light);\n  transition: all 0.3s ease-in-out;\n}\n#nav-content a:hover {\n  color: var(--green);\n}\n\n#nav-content.show {\n  transform: translateX(0);\n  box-shadow: 0px 0px 7.8px rgba(0, 0, 0, 0.053), 0px 0px 17.2px rgba(0, 0, 0, 0.078), 0px 0px 28.8px rgba(0, 0, 0, 0.096), 0px 0px 43.4px rgba(0, 0, 0, 0.111), 0px 0px 62.6px rgba(0, 0, 0, 0.125), 0px 0px 88.6px rgba(0, 0, 0, 0.139), 0px 0px 125.7px rgba(0, 0, 0, 0.154), 0px 0px 182.5px rgba(0, 0, 0, 0.172), 0px 0px 281.3px rgba(0, 0, 0, 0.197), 0px 0px 500px rgba(0, 0, 0, 0.25);\n}\n\n#nav-content .section-heading {\n  text-align: left;\n  font-size: 1.65rem;\n  font-family: var(--header-font);\n  color: var(--purple);\n  padding-bottom: 20px;\n}\n\n#nav-content .wrapper {\n  width: 70%;\n  position: relative;\n}\n\n#nav-content .closed-menu {\n  position: absolute;\n  left: 5%;\n  top: 5%;\n  transition: 0.3s ease-in-out;\n}\n\n.canvas-1 {\n  position: fixed;\n  top: 0;\n  max-width: 100%;\n  max-height: 100%;\n}\n\nstrong {\n  font-family: var(--header-alternative);\n  color: var(--green);\n}\n\nb {\n  font-family: var(--header-alternative-bold);\n  color: var(--green);\n}\n\nspan {\n  color: var(--purple);\n}\n\n.text {\n  color: var(--light);\n}\n\n.cursor {\n  color: var(--green);\n}\n\n#section-a .container {\n  grid-template-columns: repeat(12, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n}\n#section-a .container .heroText {\n  grid-area: 2/2/3/9;\n}\n#section-a .container .upper-heading {\n  padding-bottom: 10px;\n}\n#section-a .container .lower-heading {\n  padding-bottom: 20px;\n}\n\n#section-b .container {\n  grid-template-columns: repeat(12, 1fr);\n  grid-template-rows: repeat(11);\n}\n#section-b .container .current,\n#section-b .container .other {\n  padding-top: 50px;\n  padding-bottom: 100px;\n}\n#section-b .container .project {\n  padding-bottom: 50px;\n  z-index: 50;\n}\n#section-b .container .project img {\n  width: 80%;\n  margin-left: 20%;\n  border: 1px solid var(--purple);\n  border-radius: 20px;\n  opacity: 0.66;\n  filter: grayscale(100%);\n  transition: all 0.3s ease-in-out;\n}\n#section-b .container .project img:hover {\n  opacity: 1;\n  filter: grayscale(0%);\n  border-color: var(--green);\n}\n#section-b .container .project ul {\n  display: flex;\n  justify-content: space-between;\n  margin-left: 10%;\n  word-spacing: 5px;\n}\n#section-b .container .project ul a {\n  padding-left: 50px;\n}\n#section-b .container .current {\n  grid-area: 1/3/2/12;\n}\n#section-b .container .project1 {\n  grid-area: 2/1/4/5;\n}\n#section-b .container .project2 {\n  grid-area: 3/9/5/15;\n}\n#section-b .container .project3 {\n  grid-area: 4/4/6/8;\n}\n#section-b .container .other {\n  grid-area: 6/3/7/12;\n}\n#section-b .container .project4 {\n  grid-area: 7/1/9/5;\n}\n#section-b .container .project5 {\n  grid-area: 8/9/10/15;\n}\n#section-b .container .project6 {\n  grid-area: 9/4/11/8;\n}\n\n#section-c .container {\n  grid-template-columns: repeat(12, 1fr);\n  grid-template-rows: repeat(2);\n}\n#section-c .container .lab {\n  grid-area: 1/3/2/12;\n  padding-top: 50px;\n  padding-bottom: 100px;\n}\n#section-c .container .labProject {\n  padding-bottom: 50px;\n  margin: auto;\n}\n#section-c .container .labProject img {\n  width: 80%;\n  margin-left: 10%;\n  border: 1px solid var(--purple);\n  border-radius: 20px;\n  opacity: 0.66;\n  filter: grayscale(100%);\n  transition: all 0.3s ease-in-out;\n}\n#section-c .container .labProject img:hover {\n  opacity: 1;\n  filter: grayscale(0%);\n  border-color: var(--green);\n}\n#section-c .container .labProject ul {\n  display: flex;\n  justify-content: space-between;\n  margin-right: 10%;\n  word-spacing: 5px;\n}\n#section-c .container .labProject ul a {\n  padding-left: 50px;\n}\n#section-c .container .lab1 {\n  grid-area: 2/1/3/5;\n}\n#section-c .container .lab2 {\n  grid-area: 2/5/3/9;\n}\n#section-c .container .lab3 {\n  grid-area: 2/9/3/14;\n}\n\n#section-e .vl {\n  border-left: 2px solid var(--purple);\n  height: 300px;\n  position: absolute;\n}\n#section-e p {\n  position: relative;\n  left: 20px;\n  max-width: 80%;\n  display: inline;\n}\n#section-e .purple {\n  color: var(--purple);\n}\n#section-e .purple-blue {\n  color: var(--purple-blue);\n}\n#section-e .blue-turquoise {\n  color: var(--blue-turquoise);\n}\n#section-e .red {\n  color: var(--red);\n}\n#section-e .green {\n  color: var(--green);\n}\n#section-e .grey {\n  color: var(--grey-text);\n}\n\nbutton {\n  font-family: var(--header-font);\n  font-size: var(--links-font-size);\n  color: var(--light);\n  border-radius: 30px 10px 20px 10px;\n  padding: 15px 30px;\n  justify-content: center;\n  text-align: center;\n  text-shadow: var(--main-shadow);\n  white-space: nowrap;\n  border: 1px solid var(--dark);\n  background: linear-gradient(-45deg, #7161F5 0%, #0E065C 100%);\n  background-size: 400% 400%;\n  animation: animate 5s ease-in-out infinite;\n  transition: all 0.3s ease-in-out;\n  box-shadow: var(--main-shadow);\n}\nbutton:hover {\n  cursor: pointer;\n  border: 1px solid #0AA119;\n  background: linear-gradient(-45deg, #61F570 0%, #0AA119 100%);\n  box-shadow: var(--hover-shadow);\n  text-shadow: var(--hover-shadow);\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 50%;\n  }\n  50% {\n    background-position: 100% 50%;\n  }\n  100% {\n    background-position: 0 50%;\n  }\n}\n.progressSection {\n  position: fixed;\n  right: 5%;\n  bottom: 5%;\n  width: 1px;\n  height: 150px;\n  display: flex;\n  justify-content: space-between;\n  will-change: transform;\n  transition: 0.3s ease-in-out;\n  z-index: 90;\n}\n\n.progressBarWrap {\n  position: relative;\n  width: 1px;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  background-color: var(--purple);\n  box-shadow: var(--main-shadow);\n}\n\n.progressBar {\n  position: absolute;\n  transform: translateX(-1px);\n  bottom: 0;\n  width: 3px;\n  border: 1px solid var(--green);\n  border-radius: 10px;\n  height: 0%;\n  background-color: var(--green);\n  box-shadow: var(--main-shadow);\n}\n\n.progressNum {\n  font-family: var(--header-font);\n  font-size: var(--links-font-size);\n  color: var(--grey-text);\n  position: fixed;\n  right: 10px;\n  bottom: 0;\n}\n\n.strip {\n  position: fixed;\n  width: 1px;\n  height: 100vh;\n  background: linear-gradient(0deg, rgba(113, 97, 245, 0) 0%, rgba(113, 97, 245, 0.3019607843) 100%);\n  z-index: 50;\n}\n\n.one {\n  left: 26.66%;\n  top: 0;\n}\n\n.two {\n  left: 50%;\n  top: 0;\n}\n\n.three {\n  right: 26.66%;\n  top: 0;\n}\n\n@media screen and (min-width: 769px) and (max-width: 1279px) {\n  h1 {\n    font-size: 1.602rem;\n  }\n\n  h2 {\n    font-size: 1.424rem;\n  }\n\n  h3 {\n    font-size: 1.266rem;\n  }\n\n  p {\n    font-size: calc(var(--text-font-size) - 1px);\n  }\n\n  button {\n    font-size: calc(var(--links-font-size) - 1px);\n    border-radius: 28px 9px 18px 9px;\n    padding: 13px 26px;\n  }\n\n  #section-a .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(2, 1fr);\n  }\n  #section-a .container .heroText {\n    grid-area: 2/1/3/12;\n  }\n\n  #section-b .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(12);\n  }\n  #section-b .container .current,\n#section-b .container .other {\n    padding-bottom: 100px;\n  }\n  #section-b .container .project {\n    padding-bottom: 50px;\n  }\n  #section-b .container .current {\n    grid-area: 1/2/2/12;\n  }\n  #section-b .container .project1 {\n    grid-area: 2/1/3/8;\n  }\n  #section-b .container .project2 {\n    grid-area: 3/6/4/15;\n  }\n  #section-b .container .project3 {\n    grid-area: 4/4/5/11;\n  }\n  #section-b .container .other {\n    grid-area: 5/2/6/12;\n  }\n  #section-b .container .project4 {\n    grid-area: 6/1/7/8;\n  }\n  #section-b .container .project5 {\n    grid-area: 7/6/8/15;\n  }\n  #section-b .container .project6 {\n    grid-area: 8/4/9/11;\n  }\n\n  #section-c .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(6);\n  }\n  #section-c .container .lab1 {\n    grid-area: 2/1/3/7;\n  }\n  #section-c .container .lab2 {\n    grid-area: 2/7/3/13;\n  }\n  #section-c .container .lab3 {\n    grid-area: 3/4/4/10;\n  }\n\n  #section-c .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(6);\n  }\n  #section-c .container .lab1 {\n    grid-area: 2/1/3/7;\n  }\n  #section-c .container .lab2 {\n    grid-area: 2/7/3/13;\n  }\n  #section-c .container .lab3 {\n    grid-area: 3/4/4/10;\n  }\n}\n@media screen and (max-width: 768px) {\n  .logo {\n    width: 50px;\n    height: 50px;\n  }\n\n  .menu {\n    visibility: hidden;\n  }\n\n  .open-menu,\n.closed-menu {\n    width: 50px;\n    height: 50px;\n    visibility: visible;\n  }\n\n  #nav-content {\n    visibility: visible;\n  }\n\n  #nav-content a {\n    font-size: 1.5rem;\n  }\n\n  h1 {\n    font-size: 1.296rem;\n  }\n\n  h2 {\n    font-size: 1.215rem;\n  }\n\n  h3 {\n    font-size: 1.138rem;\n  }\n\n  p {\n    font-size: calc(var(--text-font-size) - 2px);\n  }\n\n  button {\n    font-size: calc(var(--links-font-size) - 2px);\n    border-radius: 26px 8px 16px 8px;\n    padding: 12px 24px;\n  }\n\n  .heading {\n    width: 80%;\n    left: 10%;\n  }\n\n  .heroText {\n    left: 11%;\n    bottom: 16%;\n  }\n\n  .upper-heading {\n    padding-bottom: 10px;\n  }\n\n  .lower-heading {\n    padding-bottom: 20px;\n  }\n\n  #section-a .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(2, 1fr);\n  }\n  #section-a .container .heroText {\n    grid-area: 2/1/3/15;\n  }\n\n  #section-b .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(12);\n  }\n  #section-b .container .current,\n#section-b .container .other {\n    padding-bottom: 100px;\n  }\n  #section-b .container .project {\n    padding-bottom: 50px;\n  }\n  #section-b .container .project img {\n    margin-left: 10%;\n    opacity: 1;\n  }\n  #section-b .container .project ul {\n    margin-left: 0%;\n    margin-right: 10%;\n  }\n  #section-b .container .current {\n    grid-area: 1/1/2/15;\n  }\n  #section-b .container .project1 {\n    grid-area: 2/1/3/15;\n  }\n  #section-b .container .project2 {\n    grid-area: 3/1/4/15;\n  }\n  #section-b .container .project3 {\n    grid-area: 4/1/5/15;\n  }\n  #section-b .container .other {\n    grid-area: 5/1/6/15;\n  }\n  #section-b .container .project4 {\n    grid-area: 6/1/7/15;\n  }\n  #section-b .container .project5 {\n    grid-area: 7/1/8/15;\n  }\n  #section-b .container .project6 {\n    grid-area: 8/1/9/15;\n  }\n\n  #section-c .container {\n    grid-template-columns: repeat(12, 1fr);\n    grid-template-rows: repeat(12);\n  }\n  #section-c .container .lab1 {\n    grid-area: 2/1/3/15;\n  }\n  #section-c .container .lab2 {\n    grid-area: 3/1/4/15;\n  }\n  #section-c .container .lab3 {\n    grid-area: 4/1/5/15;\n  }\n  #section-c .container .labProject {\n    padding-bottom: 50px;\n  }\n  #section-c .container .labProject img {\n    margin-left: 10%;\n    opacity: 1;\n  }\n  #section-c .container .labProject ul {\n    margin-left: 0%;\n    margin-right: 10%;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss"],"names":[],"mappings":"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","sourcesContent":["@font-face {\r\n    font-family: \"Expansiva\";\r\n    src: url(/src//assets/fonts/Expansiva/Expansiva.otf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"Expansiva Bold\";\r\n    src: url(/src//assets/fonts/expansiva/Expansiva-bold.otf);\r\n\r\n}\r\n\r\n@font-face {\r\n    font-family: \"Arkitech Light\";\r\n    src: url(/src//assets/fonts/Arkitech/Arkitech-Light.ttf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"Arkitech Medium\";\r\n    src: url(/src//assets/fonts/Arkitech/Arkitech-Medium.ttf);\r\n}\r\n\r\n// ------------------------------ Variables ------------------------------\r\n\r\n:root {\r\n    // Colors\r\n    --purple: #7161F5;\r\n    --green: #61F570;\r\n    --red: #F57061;\r\n    --darker: #040117;\r\n    --dark: #07032E;\r\n    --light: #EBE8FE;\r\n    --lighter: #FFFFFF;\r\n    --background-text: rgba(113, 97, 245, 0.05);\r\n    --grey-text: #ABABAB;\r\n\r\n    // Font tyoe\r\n    --body-font: 'obvia';\r\n    --header-font: 'Arkitech Light';\r\n    --header-font-bold: 'Arkitech Medium';\r\n    --header-alternative: 'Expansiva';\r\n    --header-alternative-bold: 'Expansiva Bold';\r\n\r\n    // Font size\r\n    --links-font-size: 12px;\r\n    --text-font-size: 16px;\r\n\r\n    // Shadows\r\n    --main-shadow:\r\n        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.07),\r\n        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.05),\r\n        12.5px 12.5px 10px rgba(0, 0, 0, 0.042),\r\n        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.035),\r\n        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.028),\r\n        100px 100px 80px rgba(0, 0, 0, 0.02);\r\n    --hover-shadow:\r\n        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.1),\r\n        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.072),\r\n        12.5px 12.5px 10px rgba(0, 0, 0, 0.06),\r\n        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),\r\n        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.04),\r\n        100px 100px 80px rgba(0, 0, 0, 0.028);\r\n\r\n    // Animation\r\n    --animate-duration: 1s;\r\n    --animate-delay: 1s;\r\n    --animate-repeat: 1;\r\n}\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    font-family: var(--body-font);\r\n    font-size: var(--text-font-size);\r\n    line-height: 1.6;\r\n    color: var(--light);\r\n    user-select: none;\r\n}\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1 {\r\n    font-family: var(--header-alternative);\r\n    font-size: 2.074rem;\r\n    line-height: 1.2;\r\n    color: var(--light);\r\n    padding-bottom: 10px;\r\n}\r\n\r\nh2 {\r\n    font-family: var(--header-alternative);\r\n    font-size: 1.728rem;\r\n    line-height: 1.2;\r\n    color: var(--grey-text);\r\n    padding-bottom: 10px;\r\n}\r\n\r\nh3 {\r\n    font-family: var(--header-alternative);\r\n    font-size: 1.44rem;\r\n    line-height: 1.2;\r\n    color: var(--red);\r\n    padding-bottom: 10px;\r\n}\r\n\r\np {\r\n    font-family: var(--body-font);\r\n    font-size: var(--text-font-size);\r\n    line-height: 1.6;\r\n}\r\n\r\na {\r\n    text-shadow: var(--main-shadow);\r\n    font-family: var(--header-font);\r\n    font-size: var(--links-font-size);\r\n    color: var(--grey-text);\r\n    transition: all 0.3s ease-in-out;\r\n}\r\n\r\na:hover {\r\n    color: var(--green);\r\n}\r\n\r\n// ------------------------------ Sections ------------------------------\r\n\r\nsection {\r\n    min-height: 100vh;\r\n    min-width: 100vw;\r\n    overflow: hidden;\r\n    display: flex;\r\n    padding: 75px 0;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n    position: relative;\r\n}\r\n\r\n.container {\r\n    display: grid;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100%;\r\n    width: 80%;\r\n    margin: 0 auto;\r\n    max-width: 1468px;\r\n    z-index: 80;\r\n}\r\n\r\n#section-a {\r\n    height: 100vh;\r\n\r\n    .container {\r\n        background-image: url(/src/assets/images/backgrounds/PiotrBania.svg);\r\n    }\r\n\r\n    h1 {\r\n        color: var(--light);\r\n    }\r\n}\r\n\r\n#section-b {\r\n    .container {\r\n        background-image: url(/src//assets/images/backgrounds/Portfolio.svg);\r\n    }\r\n}\r\n\r\n#section-c {\r\n    .container {\r\n        background-image: url(/src//assets/images/backgrounds/Lab.svg);\r\n    }\r\n}\r\n\r\n#section-d {\r\n    .container {\r\n        background-image: url(/src//assets/images/backgrounds/Skills.svg);\r\n    }\r\n}\r\n\r\n#section-e {\r\n    .container {\r\n        background-image: url(/src//assets/images/backgrounds/About.svg);\r\n    }\r\n}\r\n\r\n#section-f {\r\n    .container {\r\n        background-image: url(/src//assets/images/backgrounds/contact.svg);\r\n    }\r\n}\r\n\r\n#section-a {\r\n    background: linear-gradient(to right, var(--darker), var(--dark));\r\n\r\n    .container {\r\n        background-position: left;\r\n        background-repeat: no-repeat;\r\n        background-size: contain;\r\n    }\r\n}\r\n\r\n#section-b,\r\n#section-d,\r\n#section-f {\r\n    background: linear-gradient(to left, var(--darker), var(--dark));\r\n    padding-top: 100px;\r\n    padding-bottom: 100px;\r\n\r\n    .container {\r\n        background-position: left;\r\n        background-repeat: no-repeat;\r\n        background-size: contain;\r\n    }\r\n}\r\n\r\n#section-c,\r\n#section-e {\r\n    background-image: linear-gradient(to left, var(--lighter), var(--light));\r\n    padding-top: 100px;\r\n    padding-bottom: 100px;\r\n\r\n    .container {\r\n        background-position: right;\r\n        background-repeat: no-repeat;\r\n        background-size: contain;\r\n    }\r\n\r\n    h1,\r\n    p {\r\n        color: var(--dark);\r\n    }\r\n}\r\n\r\n// ------------------------------ Header ------------------------------\r\n\r\n.logo {\r\n    position: fixed;\r\n    width: 70px;\r\n    height: 70px;\r\n    left: 5%;\r\n    top: 5%;\r\n    z-index: 100;\r\n}\r\n\r\n.menu {\r\n    position: fixed;\r\n    width: 100%;\r\n    right: 10vw;\r\n    top: 57px;\r\n    z-index: 90;\r\n    display: flex;\r\n    justify-content: end;\r\n    align-content: center;\r\n    visibility: visible;\r\n\r\n    ul {\r\n        display: flex;\r\n        padding-top: 9px;\r\n\r\n        li {\r\n            padding-right: 3vw;\r\n        }\r\n    }\r\n}\r\n\r\n.open-menu {\r\n    position: fixed;\r\n    right: 5%;\r\n    top: 5%;\r\n    width: 60px;\r\n    height: 60px;\r\n    padding: 7px;\r\n    cursor: pointer;\r\n    z-index: 98;\r\n    visibility: hidden;\r\n}\r\n\r\n.closed-menu {\r\n    position: fixed;\r\n    right: 5%;\r\n    top: 5%;\r\n    width: 60px;\r\n    height: 60px;\r\n    padding: 7px;\r\n    cursor: pointer;\r\n    z-index: 98;\r\n    visibility: hidden;\r\n}\r\n\r\n#nav-content {\r\n    position: fixed;\r\n    right: 0;\r\n    top: 0;\r\n    width: 75%;\r\n    height: 100%;\r\n    max-width: 600px;\r\n    z-index: 99;\r\n    background: linear-gradient(90deg, var(--dark) 0%, var(--darker) 100%);\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    overflow: hidden;\r\n    transform: translateX(105%);\r\n    transition: 0.5s ease transform;\r\n    visibility: hidden;\r\n\r\n    a {\r\n        display: inline-block;\r\n        width: 100%;\r\n        color: var(--light);\r\n        transition: all 0.3s ease-in-out;\r\n    }\r\n\r\n    a:hover {\r\n        color: var(--green);\r\n    }\r\n}\r\n\r\n#nav-content.show {\r\n    transform: translateX(0);\r\n    box-shadow:\r\n        0px 0px 7.8px rgba(0, 0, 0, 0.053),\r\n        0px 0px 17.2px rgba(0, 0, 0, 0.078),\r\n        0px 0px 28.8px rgba(0, 0, 0, 0.096),\r\n        0px 0px 43.4px rgba(0, 0, 0, 0.111),\r\n        0px 0px 62.6px rgba(0, 0, 0, 0.125),\r\n        0px 0px 88.6px rgba(0, 0, 0, 0.139),\r\n        0px 0px 125.7px rgba(0, 0, 0, 0.154),\r\n        0px 0px 182.5px rgba(0, 0, 0, 0.172),\r\n        0px 0px 281.3px rgba(0, 0, 0, 0.197),\r\n        0px 0px 500px rgba(0, 0, 0, 0.25);\r\n}\r\n\r\n#nav-content .section-heading {\r\n    text-align: left;\r\n    font-size: 1.65rem;\r\n    font-family: var(--header-font);\r\n    color: var(--purple);\r\n    padding-bottom: 20px;\r\n}\r\n\r\n#nav-content .wrapper {\r\n    width: 70%;\r\n    position: relative;\r\n}\r\n\r\n#nav-content .closed-menu {\r\n    position: absolute;\r\n    left: 5%;\r\n    top: 5%;\r\n    transition: 0.3s ease-in-out;\r\n}\r\n\r\n// ------------------------------ Canvas ------------------------------\r\n\r\n.canvas-1 {\r\n    position: fixed;\r\n    top: 0;\r\n    max-width: 100%;\r\n    max-height: 100%;\r\n}\r\n\r\n// ------------------------------ Hero section ------------------------------\r\n\r\nstrong {\r\n    font-family: var(--header-alternative);\r\n    color: var(--green);\r\n}\r\n\r\nb {\r\n    font-family: var(--header-alternative-bold);\r\n    color: var(--green);\r\n}\r\n\r\nspan {\r\n    color: var(--purple);\r\n}\r\n\r\n.text {\r\n    color: var(--light);\r\n}\r\n\r\n.cursor {\r\n    color: var(--green);\r\n}\r\n\r\n#section-a {\r\n    .container {\r\n        grid-template-columns: repeat(12, 1fr);\r\n        grid-template-rows: repeat(2, 1fr);\r\n\r\n        .heroText {\r\n            grid-area: 2 / 2 / 3 / 9;\r\n        }\r\n\r\n        .upper-heading {\r\n            padding-bottom: 10px;\r\n        }\r\n\r\n        .lower-heading {\r\n            padding-bottom: 20px;\r\n        }\r\n    }\r\n}\r\n\r\n// ------------------------------ Portfolio section ------------------------------\r\n\r\n#section-b {\r\n    .container {\r\n        grid-template-columns: repeat(12, 1fr);\r\n        grid-template-rows: repeat(11);\r\n\r\n        .current,\r\n        .other {\r\n            padding-top: 50px;\r\n            padding-bottom: 100px;\r\n        }\r\n\r\n        .project {\r\n            padding-bottom: 50px;\r\n            z-index: 50;\r\n\r\n            img {\r\n                width: 80%;\r\n                margin-left: 20%;\r\n                border: 1px solid var(--purple);\r\n                border-radius: 20px;\r\n                opacity: 0.66;\r\n                filter: grayscale(100%);\r\n                transition: all 0.3s ease-in-out;\r\n            }\r\n\r\n            img:hover {\r\n                opacity: 1;\r\n                filter: grayscale(0%);\r\n                border-color: var(--green);\r\n            }\r\n\r\n            ul {\r\n                display: flex;\r\n                justify-content: space-between;\r\n                margin-left: 10%;\r\n                word-spacing: 5px;\r\n\r\n                a {\r\n                    padding-left: 50px;\r\n                }\r\n            }\r\n        }\r\n\r\n        .current {\r\n            grid-area: 1 / 3 / 2 / 12;\r\n        }\r\n\r\n        .project1 {\r\n            grid-area: 2 / 1 / 4 / 5;\r\n        }\r\n\r\n        .project2 {\r\n            grid-area: 3 / 9 / 5 / 15;\r\n        }\r\n\r\n        .project3 {\r\n            grid-area: 4 / 4 / 6 / 8;\r\n        }\r\n\r\n        .other {\r\n            grid-area: 6 / 3 / 7 / 12;\r\n        }\r\n\r\n        .project4 {\r\n            grid-area: 7 / 1 / 9 / 5;\r\n        }\r\n\r\n        .project5 {\r\n            grid-area: 8 / 9 / 10 / 15;\r\n        }\r\n\r\n        .project6 {\r\n            grid-area: 9 / 4 / 11 / 8;\r\n        }\r\n    }\r\n}\r\n\r\n// ------------------------------ Lab section ------------------------------\r\n\r\n#section-c {\r\n    .container {\r\n        grid-template-columns: repeat(12, 1fr);\r\n        grid-template-rows: repeat(2);\r\n\r\n        .lab {\r\n            grid-area: 1 / 3 / 2 / 12;\r\n            padding-top: 50px;\r\n            padding-bottom: 100px;\r\n        }\r\n\r\n        .labProject {\r\n            padding-bottom: 50px;\r\n            margin: auto;\r\n\r\n            img {\r\n                width: 80%;\r\n                margin-left: 10%;\r\n                border: 1px solid var(--purple);\r\n                border-radius: 20px;\r\n                opacity: 0.66;\r\n                filter: grayscale(100%);\r\n                transition: all 0.3s ease-in-out;\r\n            }\r\n\r\n            img:hover {\r\n                opacity: 1;\r\n                filter: grayscale(0%);\r\n                border-color: var(--green);\r\n            }\r\n\r\n            ul {\r\n                display: flex;\r\n                justify-content: space-between;\r\n                margin-right: 10%;\r\n                word-spacing: 5px;\r\n\r\n                a {\r\n                    padding-left: 50px;\r\n                }\r\n            }\r\n        }\r\n\r\n        .lab1 {\r\n            grid-area: 2 / 1 / 3 / 5;\r\n        }\r\n\r\n        .lab2 {\r\n            grid-area: 2 / 5 / 3 / 9;\r\n        }\r\n\r\n        .lab3 {\r\n            grid-area: 2 / 9 / 3 / 14;\r\n        }\r\n    }\r\n}\r\n\r\n// ------------------------------ About section ------------------------------\r\n\r\n#section-e {\r\n    .vl {\r\n        border-left: 2px solid var(--purple);\r\n        height: 300px;\r\n        position: absolute;\r\n    }\r\n\r\n    p {\r\n        position: relative;\r\n        left: 20px;\r\n        max-width: 80%;\r\n        display: inline;\r\n\r\n    }\r\n\r\n    .purple {\r\n        color: var(--purple);\r\n    }\r\n\r\n    .purple-blue {\r\n        color: var(--purple-blue);\r\n    }\r\n\r\n    .blue-turquoise {\r\n        color: var(--blue-turquoise);\r\n    }\r\n\r\n    .red {\r\n        color: var(--red);\r\n    }\r\n\r\n    .green {\r\n        color: var(--green);\r\n    }\r\n\r\n    .grey {\r\n        color: var(--grey-text);\r\n    }\r\n}\r\n\r\n// ------------------------------ Buttons ------------------------------\r\n\r\nbutton {\r\n    font-family: var(--header-font);\r\n    font-size: var(--links-font-size);\r\n    color: var(--light);\r\n    border-radius: 30px 10px 20px 10px;\r\n    padding: 15px 30px;\r\n    justify-content: center;\r\n    text-align: center;\r\n    text-shadow: var(--main-shadow);\r\n    white-space: nowrap;\r\n    border: 1px solid var(--dark);\r\n    background: linear-gradient(-45deg, #7161F5 0%, #0E065C 100%);\r\n    background-size: 400% 400%;\r\n    animation: animate 5s ease-in-out infinite;\r\n    transition: all 0.3s ease-in-out;\r\n    box-shadow: var(--main-shadow);\r\n\r\n    &:hover {\r\n        cursor: pointer;\r\n        border: 1px solid #0AA119;\r\n        background: linear-gradient(-45deg, #61F570 0%, #0AA119 100%);\r\n        box-shadow: var(--hover-shadow);\r\n        text-shadow: var(--hover-shadow);\r\n    }\r\n}\r\n\r\n@keyframes animate {\r\n    0% {\r\n        background-position: 0 50%;\r\n    }\r\n\r\n    50% {\r\n        background-position: 100% 50%;\r\n    }\r\n\r\n    100% {\r\n        background-position: 0 50%;\r\n    }\r\n}\r\n\r\n// ------------------------------ Progress bar ------------------------------\r\n\r\n.progressSection {\r\n    position: fixed;\r\n    right: 5%;\r\n    bottom: 5%;\r\n    width: 1px;\r\n    height: 150px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    will-change: transform;\r\n    transition: 0.3s ease-in-out;\r\n    z-index: 90;\r\n}\r\n\r\n.progressBarWrap {\r\n    position: relative;\r\n    width: 1px;\r\n    border: none;\r\n    border-radius: 10px;\r\n    overflow: hidden;\r\n    background-color: var(--purple);\r\n    box-shadow: var(--main-shadow);\r\n}\r\n\r\n.progressBar {\r\n    position: absolute;\r\n    transform: translateX(-1px);\r\n    bottom: 0;\r\n    width: 3px;\r\n    border: 1px solid var(--green);\r\n    border-radius: 10px;\r\n    height: 0%;\r\n    background-color: var(--green);\r\n    box-shadow: var(--main-shadow);\r\n}\r\n\r\n.progressNum {\r\n    font-family: var(--header-font);\r\n    font-size: var(--links-font-size);\r\n    color: var(--grey-text);\r\n    position: fixed;\r\n    right: 10px;\r\n    bottom: 0;\r\n}\r\n\r\n// ------------------------------ Strips ------------------------------\r\n\r\n.strip {\r\n    position: fixed;\r\n    width: 1px;\r\n    height: 100vh;\r\n    background: linear-gradient(0deg, #7161F500 0%, #7161F54D 100%);\r\n    z-index: 50;\r\n}\r\n\r\n.one {\r\n    left: 26.66%;\r\n    top: 0;\r\n}\r\n\r\n.two {\r\n    left: 50%;\r\n    top: 0;\r\n}\r\n\r\n.three {\r\n    right: 26.66%;\r\n    top: 0;\r\n}\r\n\r\n// ------------------------------ Media queries ------------------------------\r\n\r\n@media screen and (min-width: 769px) and (max-width: 1279px) {\r\n    h1 {\r\n        font-size: 1.602rem;\r\n    }\r\n\r\n    h2 {\r\n        font-size: 1.424rem;\r\n    }\r\n\r\n    h3 {\r\n        font-size: 1.266rem;\r\n    }\r\n\r\n    p {\r\n        font-size: calc(var(--text-font-size) - 1px);\r\n    }\r\n\r\n    button {\r\n        font-size: calc(var(--links-font-size) - 1px);\r\n        border-radius: 28px 9px 18px 9px;\r\n        padding: 13px 26px;\r\n    }\r\n\r\n    #section-a {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(2, 1fr);\r\n\r\n            .heroText {\r\n                grid-area: 2 / 1 / 3 / 12;\r\n            }\r\n        }\r\n    }\r\n\r\n    #section-b {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(12);\r\n\r\n            .current,\r\n            .other {\r\n                padding-bottom: 100px;\r\n            }\r\n\r\n            .project {\r\n                padding-bottom: 50px;\r\n            }\r\n\r\n            .current {\r\n                grid-area: 1 / 2 / 2 / 12;\r\n            }\r\n\r\n            .project1 {\r\n                grid-area: 2 / 1 / 3 / 8;\r\n            }\r\n\r\n            .project2 {\r\n                grid-area: 3 / 6 / 4 / 15;\r\n            }\r\n\r\n            .project3 {\r\n                grid-area: 4 / 4 / 5 / 11;\r\n            }\r\n\r\n            .other {\r\n                grid-area: 5 / 2 / 6 / 12;\r\n            }\r\n\r\n            .project4 {\r\n                grid-area: 6 / 1 / 7 / 8;\r\n            }\r\n\r\n            .project5 {\r\n                grid-area: 7 / 6 / 8 / 15;\r\n            }\r\n\r\n            .project6 {\r\n                grid-area: 8 / 4 / 9 / 11;\r\n            }\r\n        }\r\n    }\r\n\r\n    #section-c {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(6);\r\n\r\n            .lab1 {\r\n                grid-area: 2 / 1 / 3 / 7;\r\n            }\r\n\r\n            .lab2 {\r\n                grid-area: 2 / 7 / 3 / 13;\r\n            }\r\n\r\n            .lab3 {\r\n                grid-area: 3 / 4 / 4 / 10;\r\n            }\r\n        }\r\n    }\r\n\r\n    #section-c {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(6);\r\n\r\n            .lab1 {\r\n                grid-area: 2 / 1 / 3 / 7;\r\n            }\r\n\r\n            .lab2 {\r\n                grid-area: 2 / 7 / 3 / 13;\r\n            }\r\n\r\n            .lab3 {\r\n                grid-area: 3 / 4 / 4 / 10;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 768px) {\r\n    .logo {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    .menu {\r\n        visibility: hidden;\r\n    }\r\n\r\n    .open-menu,\r\n    .closed-menu {\r\n        width: 50px;\r\n        height: 50px;\r\n        visibility: visible;\r\n    }\r\n\r\n    #nav-content {\r\n        visibility: visible;\r\n    }\r\n\r\n    #nav-content a {\r\n        font-size: 1.5rem;\r\n    }\r\n\r\n    h1 {\r\n        font-size: 1.296rem;\r\n    }\r\n\r\n    h2 {\r\n        font-size: 1.215rem;\r\n    }\r\n\r\n    h3 {\r\n        font-size: 1.138rem;\r\n    }\r\n\r\n    p {\r\n        font-size: calc(var(--text-font-size) - 2px);\r\n    }\r\n\r\n    button {\r\n        font-size: calc(var(--links-font-size) - 2px);\r\n        border-radius: 26px 8px 16px 8px;\r\n        padding: 12px 24px;\r\n    }\r\n\r\n    .heading {\r\n        width: 80%;\r\n        left: 10%;\r\n    }\r\n\r\n    .heroText {\r\n        left: 11%;\r\n        bottom: 16%;\r\n    }\r\n\r\n    .upper-heading {\r\n        padding-bottom: 10px;\r\n    }\r\n\r\n    .lower-heading {\r\n        padding-bottom: 20px;\r\n    }\r\n\r\n    #section-a {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(2, 1fr);\r\n\r\n            .heroText {\r\n                grid-area: 2 / 1 / 3 / 15;\r\n            }\r\n        }\r\n    }\r\n\r\n    #section-b {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(12);\r\n\r\n            .current,\r\n            .other {\r\n                padding-bottom: 100px;\r\n            }\r\n\r\n            .project {\r\n                padding-bottom: 50px;\r\n\r\n                img {\r\n                    margin-left: 10%;\r\n                    opacity: 1;\r\n                }\r\n\r\n                ul {\r\n                    margin-left: 0%;\r\n                    margin-right: 10%;\r\n                }\r\n            }\r\n\r\n            .current {\r\n                grid-area: 1 / 1 / 2 / 15;\r\n            }\r\n\r\n            .project1 {\r\n                grid-area: 2 / 1 / 3 / 15;\r\n            }\r\n\r\n            .project2 {\r\n                grid-area: 3 / 1 / 4 / 15;\r\n            }\r\n\r\n            .project3 {\r\n                grid-area: 4 / 1 / 5 / 15;\r\n            }\r\n\r\n            .other {\r\n                grid-area: 5 / 1 / 6 / 15;\r\n            }\r\n\r\n            .project4 {\r\n                grid-area: 6 / 1 / 7 / 15;\r\n            }\r\n\r\n            .project5 {\r\n                grid-area: 7 / 1 / 8 / 15;\r\n            }\r\n\r\n            .project6 {\r\n                grid-area: 8 / 1 / 9 / 15;\r\n            }\r\n        }\r\n    }\r\n\r\n    #section-c {\r\n        .container {\r\n            grid-template-columns: repeat(12, 1fr);\r\n            grid-template-rows: repeat(12);\r\n\r\n            .lab1 {\r\n                grid-area: 2 / 1 / 3 / 15;\r\n            }\r\n\r\n            .lab2 {\r\n                grid-area: 3 / 1 / 4 / 15;\r\n            }\r\n\r\n            .lab3 {\r\n                grid-area: 4 / 1 / 5 / 15;\r\n            }\r\n\r\n            .labProject {\r\n                padding-bottom: 50px;\r\n\r\n                img {\r\n                    margin-left: 10%;\r\n                    opacity: 1;\r\n                }\r\n\r\n                ul {\r\n                    margin-left: 0%;\r\n                    margin-right: 10%;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -135,6 +158,44 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -6178,6 +6239,106 @@ function styleTagTransform(css, styleElement) {
 }
 
 module.exports = styleTagTransform;
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arkitech/Arkitech-Light.ttf":
+/*!******************************************************!*\
+  !*** ./src/assets/fonts/Arkitech/Arkitech-Light.ttf ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Arkitech-Light.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arkitech/Arkitech-Medium.ttf":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/Arkitech/Arkitech-Medium.ttf ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Arkitech-Medium.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Expansiva/Expansiva.otf":
+/*!**************************************************!*\
+  !*** ./src/assets/fonts/Expansiva/Expansiva.otf ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Expansiva.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/expansiva/Expansiva-bold.otf":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/expansiva/Expansiva-bold.otf ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Expansiva-bold.otf";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/About.svg":
+/*!*************************************************!*\
+  !*** ./src/assets/images/backgrounds/About.svg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "About.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/Lab.svg":
+/*!***********************************************!*\
+  !*** ./src/assets/images/backgrounds/Lab.svg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Lab.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/PiotrBania.svg":
+/*!******************************************************!*\
+  !*** ./src/assets/images/backgrounds/PiotrBania.svg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "PiotrBania.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/Portfolio.svg":
+/*!*****************************************************!*\
+  !*** ./src/assets/images/backgrounds/Portfolio.svg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Portfolio.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/Skills.svg":
+/*!**************************************************!*\
+  !*** ./src/assets/images/backgrounds/Skills.svg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Skills.svg";
+
+/***/ }),
+
+/***/ "./src/assets/images/backgrounds/contact.svg":
+/*!***************************************************!*\
+  !*** ./src/assets/images/backgrounds/contact.svg ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "contact.svg";
 
 /***/ }),
 
@@ -61606,6 +61767,490 @@ function toTrianglesDrawMode( geometry, drawMode ) {
 
 
 
+/***/ }),
+
+/***/ "./node_modules/three/examples/jsm/loaders/RGBELoader.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/three/examples/jsm/loaders/RGBELoader.js ***!
+  \***************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RGBELoader": () => (/* binding */ RGBELoader)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+
+
+// https://github.com/mrdoob/three.js/issues/5552
+// http://en.wikipedia.org/wiki/RGBE_image_format
+
+class RGBELoader extends three__WEBPACK_IMPORTED_MODULE_0__.DataTextureLoader {
+
+	constructor( manager ) {
+
+		super( manager );
+
+		this.type = three__WEBPACK_IMPORTED_MODULE_0__.HalfFloatType;
+
+	}
+
+	// adapted from http://www.graphics.cornell.edu/~bjw/rgbe.html
+
+	parse( buffer ) {
+
+		const
+			/* return codes for rgbe routines */
+			//RGBE_RETURN_SUCCESS = 0,
+			RGBE_RETURN_FAILURE = - 1,
+
+			/* default error routine.  change this to change error handling */
+			rgbe_read_error = 1,
+			rgbe_write_error = 2,
+			rgbe_format_error = 3,
+			rgbe_memory_error = 4,
+			rgbe_error = function ( rgbe_error_code, msg ) {
+
+				switch ( rgbe_error_code ) {
+
+					case rgbe_read_error: console.error( 'THREE.RGBELoader Read Error: ' + ( msg || '' ) );
+						break;
+					case rgbe_write_error: console.error( 'THREE.RGBELoader Write Error: ' + ( msg || '' ) );
+						break;
+					case rgbe_format_error: console.error( 'THREE.RGBELoader Bad File Format: ' + ( msg || '' ) );
+						break;
+					default:
+					case rgbe_memory_error: console.error( 'THREE.RGBELoader: Error: ' + ( msg || '' ) );
+
+				}
+
+				return RGBE_RETURN_FAILURE;
+
+			},
+
+			/* offsets to red, green, and blue components in a data (float) pixel */
+			//RGBE_DATA_RED = 0,
+			//RGBE_DATA_GREEN = 1,
+			//RGBE_DATA_BLUE = 2,
+
+			/* number of floats per pixel, use 4 since stored in rgba image format */
+			//RGBE_DATA_SIZE = 4,
+
+			/* flags indicating which fields in an rgbe_header_info are valid */
+			RGBE_VALID_PROGRAMTYPE = 1,
+			RGBE_VALID_FORMAT = 2,
+			RGBE_VALID_DIMENSIONS = 4,
+
+			NEWLINE = '\n',
+
+			fgets = function ( buffer, lineLimit, consume ) {
+
+				const chunkSize = 128;
+
+				lineLimit = ! lineLimit ? 1024 : lineLimit;
+				let p = buffer.pos,
+					i = - 1, len = 0, s = '',
+					chunk = String.fromCharCode.apply( null, new Uint16Array( buffer.subarray( p, p + chunkSize ) ) );
+
+				while ( ( 0 > ( i = chunk.indexOf( NEWLINE ) ) ) && ( len < lineLimit ) && ( p < buffer.byteLength ) ) {
+
+					s += chunk; len += chunk.length;
+					p += chunkSize;
+					chunk += String.fromCharCode.apply( null, new Uint16Array( buffer.subarray( p, p + chunkSize ) ) );
+
+				}
+
+				if ( - 1 < i ) {
+
+					/*for (i=l-1; i>=0; i--) {
+						byteCode = m.charCodeAt(i);
+						if (byteCode > 0x7f && byteCode <= 0x7ff) byteLen++;
+						else if (byteCode > 0x7ff && byteCode <= 0xffff) byteLen += 2;
+						if (byteCode >= 0xDC00 && byteCode <= 0xDFFF) i--; //trail surrogate
+					}*/
+					if ( false !== consume ) buffer.pos += len + i + 1;
+					return s + chunk.slice( 0, i );
+
+				}
+
+				return false;
+
+			},
+
+			/* minimal header reading.  modify if you want to parse more information */
+			RGBE_ReadHeader = function ( buffer ) {
+
+
+				// regexes to parse header info fields
+				const magic_token_re = /^#\?(\S+)/,
+					gamma_re = /^\s*GAMMA\s*=\s*(\d+(\.\d+)?)\s*$/,
+					exposure_re = /^\s*EXPOSURE\s*=\s*(\d+(\.\d+)?)\s*$/,
+					format_re = /^\s*FORMAT=(\S+)\s*$/,
+					dimensions_re = /^\s*\-Y\s+(\d+)\s+\+X\s+(\d+)\s*$/,
+
+					// RGBE format header struct
+					header = {
+
+						valid: 0, /* indicate which fields are valid */
+
+						string: '', /* the actual header string */
+
+						comments: '', /* comments found in header */
+
+						programtype: 'RGBE', /* listed at beginning of file to identify it after "#?". defaults to "RGBE" */
+
+						format: '', /* RGBE format, default 32-bit_rle_rgbe */
+
+						gamma: 1.0, /* image has already been gamma corrected with given gamma. defaults to 1.0 (no correction) */
+
+						exposure: 1.0, /* a value of 1.0 in an image corresponds to <exposure> watts/steradian/m^2. defaults to 1.0 */
+
+						width: 0, height: 0 /* image dimensions, width/height */
+
+					};
+
+				let line, match;
+
+				if ( buffer.pos >= buffer.byteLength || ! ( line = fgets( buffer ) ) ) {
+
+					return rgbe_error( rgbe_read_error, 'no header found' );
+
+				}
+
+				/* if you want to require the magic token then uncomment the next line */
+				if ( ! ( match = line.match( magic_token_re ) ) ) {
+
+					return rgbe_error( rgbe_format_error, 'bad initial token' );
+
+				}
+
+				header.valid |= RGBE_VALID_PROGRAMTYPE;
+				header.programtype = match[ 1 ];
+				header.string += line + '\n';
+
+				while ( true ) {
+
+					line = fgets( buffer );
+					if ( false === line ) break;
+					header.string += line + '\n';
+
+					if ( '#' === line.charAt( 0 ) ) {
+
+						header.comments += line + '\n';
+						continue; // comment line
+
+					}
+
+					if ( match = line.match( gamma_re ) ) {
+
+						header.gamma = parseFloat( match[ 1 ] );
+
+					}
+
+					if ( match = line.match( exposure_re ) ) {
+
+						header.exposure = parseFloat( match[ 1 ] );
+
+					}
+
+					if ( match = line.match( format_re ) ) {
+
+						header.valid |= RGBE_VALID_FORMAT;
+						header.format = match[ 1 ];//'32-bit_rle_rgbe';
+
+					}
+
+					if ( match = line.match( dimensions_re ) ) {
+
+						header.valid |= RGBE_VALID_DIMENSIONS;
+						header.height = parseInt( match[ 1 ], 10 );
+						header.width = parseInt( match[ 2 ], 10 );
+
+					}
+
+					if ( ( header.valid & RGBE_VALID_FORMAT ) && ( header.valid & RGBE_VALID_DIMENSIONS ) ) break;
+
+				}
+
+				if ( ! ( header.valid & RGBE_VALID_FORMAT ) ) {
+
+					return rgbe_error( rgbe_format_error, 'missing format specifier' );
+
+				}
+
+				if ( ! ( header.valid & RGBE_VALID_DIMENSIONS ) ) {
+
+					return rgbe_error( rgbe_format_error, 'missing image size specifier' );
+
+				}
+
+				return header;
+
+			},
+
+			RGBE_ReadPixels_RLE = function ( buffer, w, h ) {
+
+				const scanline_width = w;
+
+				if (
+					// run length encoding is not allowed so read flat
+					( ( scanline_width < 8 ) || ( scanline_width > 0x7fff ) ) ||
+					// this file is not run length encoded
+					( ( 2 !== buffer[ 0 ] ) || ( 2 !== buffer[ 1 ] ) || ( buffer[ 2 ] & 0x80 ) )
+				) {
+
+					// return the flat buffer
+					return new Uint8Array( buffer );
+
+				}
+
+				if ( scanline_width !== ( ( buffer[ 2 ] << 8 ) | buffer[ 3 ] ) ) {
+
+					return rgbe_error( rgbe_format_error, 'wrong scanline width' );
+
+				}
+
+				const data_rgba = new Uint8Array( 4 * w * h );
+
+				if ( ! data_rgba.length ) {
+
+					return rgbe_error( rgbe_memory_error, 'unable to allocate buffer space' );
+
+				}
+
+				let offset = 0, pos = 0;
+
+				const ptr_end = 4 * scanline_width;
+				const rgbeStart = new Uint8Array( 4 );
+				const scanline_buffer = new Uint8Array( ptr_end );
+				let num_scanlines = h;
+
+				// read in each successive scanline
+				while ( ( num_scanlines > 0 ) && ( pos < buffer.byteLength ) ) {
+
+					if ( pos + 4 > buffer.byteLength ) {
+
+						return rgbe_error( rgbe_read_error );
+
+					}
+
+					rgbeStart[ 0 ] = buffer[ pos ++ ];
+					rgbeStart[ 1 ] = buffer[ pos ++ ];
+					rgbeStart[ 2 ] = buffer[ pos ++ ];
+					rgbeStart[ 3 ] = buffer[ pos ++ ];
+
+					if ( ( 2 != rgbeStart[ 0 ] ) || ( 2 != rgbeStart[ 1 ] ) || ( ( ( rgbeStart[ 2 ] << 8 ) | rgbeStart[ 3 ] ) != scanline_width ) ) {
+
+						return rgbe_error( rgbe_format_error, 'bad rgbe scanline format' );
+
+					}
+
+					// read each of the four channels for the scanline into the buffer
+					// first red, then green, then blue, then exponent
+					let ptr = 0, count;
+
+					while ( ( ptr < ptr_end ) && ( pos < buffer.byteLength ) ) {
+
+						count = buffer[ pos ++ ];
+						const isEncodedRun = count > 128;
+						if ( isEncodedRun ) count -= 128;
+
+						if ( ( 0 === count ) || ( ptr + count > ptr_end ) ) {
+
+							return rgbe_error( rgbe_format_error, 'bad scanline data' );
+
+						}
+
+						if ( isEncodedRun ) {
+
+							// a (encoded) run of the same value
+							const byteValue = buffer[ pos ++ ];
+							for ( let i = 0; i < count; i ++ ) {
+
+								scanline_buffer[ ptr ++ ] = byteValue;
+
+							}
+							//ptr += count;
+
+						} else {
+
+							// a literal-run
+							scanline_buffer.set( buffer.subarray( pos, pos + count ), ptr );
+							ptr += count; pos += count;
+
+						}
+
+					}
+
+
+					// now convert data from buffer into rgba
+					// first red, then green, then blue, then exponent (alpha)
+					const l = scanline_width; //scanline_buffer.byteLength;
+					for ( let i = 0; i < l; i ++ ) {
+
+						let off = 0;
+						data_rgba[ offset ] = scanline_buffer[ i + off ];
+						off += scanline_width; //1;
+						data_rgba[ offset + 1 ] = scanline_buffer[ i + off ];
+						off += scanline_width; //1;
+						data_rgba[ offset + 2 ] = scanline_buffer[ i + off ];
+						off += scanline_width; //1;
+						data_rgba[ offset + 3 ] = scanline_buffer[ i + off ];
+						offset += 4;
+
+					}
+
+					num_scanlines --;
+
+				}
+
+				return data_rgba;
+
+			};
+
+		const RGBEByteToRGBFloat = function ( sourceArray, sourceOffset, destArray, destOffset ) {
+
+			const e = sourceArray[ sourceOffset + 3 ];
+			const scale = Math.pow( 2.0, e - 128.0 ) / 255.0;
+
+			destArray[ destOffset + 0 ] = sourceArray[ sourceOffset + 0 ] * scale;
+			destArray[ destOffset + 1 ] = sourceArray[ sourceOffset + 1 ] * scale;
+			destArray[ destOffset + 2 ] = sourceArray[ sourceOffset + 2 ] * scale;
+			destArray[ destOffset + 3 ] = 1;
+
+		};
+
+		const RGBEByteToRGBHalf = function ( sourceArray, sourceOffset, destArray, destOffset ) {
+
+			const e = sourceArray[ sourceOffset + 3 ];
+			const scale = Math.pow( 2.0, e - 128.0 ) / 255.0;
+
+			// clamping to 65504, the maximum representable value in float16
+			destArray[ destOffset + 0 ] = three__WEBPACK_IMPORTED_MODULE_0__.DataUtils.toHalfFloat( Math.min( sourceArray[ sourceOffset + 0 ] * scale, 65504 ) );
+			destArray[ destOffset + 1 ] = three__WEBPACK_IMPORTED_MODULE_0__.DataUtils.toHalfFloat( Math.min( sourceArray[ sourceOffset + 1 ] * scale, 65504 ) );
+			destArray[ destOffset + 2 ] = three__WEBPACK_IMPORTED_MODULE_0__.DataUtils.toHalfFloat( Math.min( sourceArray[ sourceOffset + 2 ] * scale, 65504 ) );
+			destArray[ destOffset + 3 ] = three__WEBPACK_IMPORTED_MODULE_0__.DataUtils.toHalfFloat( 1 );
+
+		};
+
+		const byteArray = new Uint8Array( buffer );
+		byteArray.pos = 0;
+		const rgbe_header_info = RGBE_ReadHeader( byteArray );
+
+		if ( RGBE_RETURN_FAILURE !== rgbe_header_info ) {
+
+			const w = rgbe_header_info.width,
+				h = rgbe_header_info.height,
+				image_rgba_data = RGBE_ReadPixels_RLE( byteArray.subarray( byteArray.pos ), w, h );
+
+			if ( RGBE_RETURN_FAILURE !== image_rgba_data ) {
+
+				let data, format, type;
+				let numElements;
+
+				switch ( this.type ) {
+
+					case three__WEBPACK_IMPORTED_MODULE_0__.FloatType:
+
+						numElements = image_rgba_data.length / 4;
+						const floatArray = new Float32Array( numElements * 4 );
+
+						for ( let j = 0; j < numElements; j ++ ) {
+
+							RGBEByteToRGBFloat( image_rgba_data, j * 4, floatArray, j * 4 );
+
+						}
+
+						data = floatArray;
+						type = three__WEBPACK_IMPORTED_MODULE_0__.FloatType;
+						break;
+
+					case three__WEBPACK_IMPORTED_MODULE_0__.HalfFloatType:
+
+						numElements = image_rgba_data.length / 4;
+						const halfArray = new Uint16Array( numElements * 4 );
+
+						for ( let j = 0; j < numElements; j ++ ) {
+
+							RGBEByteToRGBHalf( image_rgba_data, j * 4, halfArray, j * 4 );
+
+						}
+
+						data = halfArray;
+						type = three__WEBPACK_IMPORTED_MODULE_0__.HalfFloatType;
+						break;
+
+					default:
+
+						console.error( 'THREE.RGBELoader: unsupported type: ', this.type );
+						break;
+
+				}
+
+				return {
+					width: w, height: h,
+					data: data,
+					header: rgbe_header_info.string,
+					gamma: rgbe_header_info.gamma,
+					exposure: rgbe_header_info.exposure,
+					format: format,
+					type: type
+				};
+
+			}
+
+		}
+
+		return null;
+
+	}
+
+	setDataType( value ) {
+
+		this.type = value;
+		return this;
+
+	}
+
+	load( url, onLoad, onProgress, onError ) {
+
+		function onLoadCallback( texture, texData ) {
+
+			switch ( texture.type ) {
+
+				case three__WEBPACK_IMPORTED_MODULE_0__.FloatType:
+
+					texture.encoding = three__WEBPACK_IMPORTED_MODULE_0__.LinearEncoding;
+					texture.minFilter = three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter;
+					texture.magFilter = three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter;
+					texture.generateMipmaps = false;
+					texture.flipY = true;
+					break;
+
+				case three__WEBPACK_IMPORTED_MODULE_0__.HalfFloatType:
+
+					texture.encoding = three__WEBPACK_IMPORTED_MODULE_0__.LinearEncoding;
+					texture.minFilter = three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter;
+					texture.magFilter = three__WEBPACK_IMPORTED_MODULE_0__.LinearFilter;
+					texture.generateMipmaps = false;
+					texture.flipY = true;
+					break;
+
+			}
+
+			if ( onLoad ) onLoad( texture, texData );
+
+		}
+
+		return super.load( url, onLoadCallback, onProgress, onError );
+
+	}
+
+}
+
+
+
+
 /***/ })
 
 /******/ 	});
@@ -61634,6 +62279,9 @@ function toTrianglesDrawMode( geometry, drawMode ) {
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -61659,6 +62307,18 @@ function toTrianglesDrawMode( geometry, drawMode ) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -61675,6 +62335,52 @@ function toTrianglesDrawMode( geometry, drawMode ) {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"bundle": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
@@ -61683,39 +62389,74 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
 /* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/main.scss */ "./src/style/main.scss");
 /* harmony import */ var three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three/examples/jsm/loaders/GLTFLoader */ "./node_modules/three/examples/jsm/loaders/GLTFLoader.js");
-/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
+/* harmony import */ var three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! three/examples/jsm/loaders/RGBELoader */ "./node_modules/three/examples/jsm/loaders/RGBELoader.js");
+/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
 
 
 
 
-console.log(three__WEBPACK_IMPORTED_MODULE_2__); // ----------------- Canvas -----------------
+ // ----------------- Canvas -----------------
 
 var canvas_1 = document.querySelector('canvas.canvas-1'); // ----------------- Scene -----------------
 
-var scene = new three__WEBPACK_IMPORTED_MODULE_2__.Scene(); // ----------------- Sizes -----------------
+var scene = new three__WEBPACK_IMPORTED_MODULE_3__.Scene(); // ----------------- Particles -----------------
+
+var textureLoader = new three__WEBPACK_IMPORTED_MODULE_3__.TextureLoader();
+var particleTexture = textureLoader.load('../src/assets/particles/twirl_03.png'); // Geometry
+
+var particlesGeometry = new three__WEBPACK_IMPORTED_MODULE_3__.BufferGeometry();
+var count = 20000;
+var positions = new Float32Array(count * 3);
+
+for (var i = 0; i < count * 3; i++) {
+  positions[i] = (Math.random() - 0.5) * 100;
+}
+
+particlesGeometry.setAttribute('position', new three__WEBPACK_IMPORTED_MODULE_3__.BufferAttribute(positions, 3)); // Material
+
+var particlesMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.PointsMaterial();
+particlesMaterial.size = 0.25;
+particlesMaterial.sizeAttenuation = true;
+particlesMaterial.color = new three__WEBPACK_IMPORTED_MODULE_3__.Color('#7161F5');
+particlesMaterial.transparent = true;
+particlesMaterial.alphaMap = particleTexture; // Points
+
+var particles = new three__WEBPACK_IMPORTED_MODULE_3__.Points(particlesGeometry, particlesMaterial);
+scene.add(particles);
+gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(particles.rotation, {
+  duration: 1000,
+  delay: 0,
+  y: -5,
+  repeat: -1
+}); // ----------------- Sizes -----------------
 
 var sizes = {
   width: window.innerWidth,
   height: window.innerHeight
 }; // ----------------- Camera -----------------
 
-var camera = new three__WEBPACK_IMPORTED_MODULE_2__.PerspectiveCamera(30, sizes.width / sizes.height, 0.1, 1000);
+var camera = new three__WEBPACK_IMPORTED_MODULE_3__.PerspectiveCamera(30, sizes.width / sizes.height, 0.1, 1000);
 camera.position.x = -1;
 camera.position.y = 0;
 camera.position.z = 6; // ----------------- Lights -----------------
+// const hemiLight = new THREE.HemisphereLight(0xffeeb1, 0x080820, 4)
+// scene.add(hemiLight)
+// const spotLight = new THREE.SpotLight(0xffffff, 4)
+// spotLight.position.set(-50, 50, 50)
+// spotLight.castShadow = true
+// spotLight.shadow.bias = -0.0001
+// spotLight.shadow.mapSize.width = 1024 * 4
+// spotLight.shadow.mapSize.height = 1024 * 4
+// scene.add(spotLight)
+// ----------------- HDRI -----------------
 
-var hemiLight = new three__WEBPACK_IMPORTED_MODULE_2__.HemisphereLight(0xffeeb1, 0x080820, 4);
-scene.add(hemiLight);
-var spotLight = new three__WEBPACK_IMPORTED_MODULE_2__.SpotLight(0xffffff, 4);
-spotLight.position.set(-50, 50, 50);
-spotLight.castShadow = true;
-spotLight.shadow.bias = -0.0001;
-spotLight.shadow.mapSize.width = 1024 * 4;
-spotLight.shadow.mapSize.height = 1024 * 4;
-scene.add(spotLight); // ----------------- 3d models -----------------
+new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoader().load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
+  texture.mapping = three__WEBPACK_IMPORTED_MODULE_3__.EquirectangularReflectionMapping;
+  scene.environment = texture;
+}); // ----------------- 3d models -----------------
 
 var modelsDistance = 5; // Model 1
 
@@ -61733,7 +62474,7 @@ model_1.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
   // normalMapTexture.wrapT = THREE.RepeatWrapping
   // Material
 
-  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_2__.MeshPhysicalMaterial({
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
     color: 0x7161F5,
     // map: modelColorTexture,
     // normalMap: normalMapTexture,
@@ -61755,23 +62496,282 @@ model_1.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
   });
   scene.add(model_1); // Animation
 
-  gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(model_1.rotation, {
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_1.rotation, {
     duration: 500,
     delay: 0,
     y: -15,
     repeat: -1
   });
-}); // ----------------- Render -----------------
+}); // Model 2
+
+var model_2 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_2.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_2 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-0.5, 0, -3);
+  gltf.scene.position.y = -modelsDistance * 1; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0xF57061,
+    metalness: 1,
+    roughness: 0,
+    transmission: 1,
+    thickness: 0
+  });
+  model_2.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_2.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_2); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_2.rotation, {
+    duration: 500,
+    delay: 0,
+    x: -5,
+    y: 7,
+    repeat: -1
+  });
+}); // Model 3
+
+var model_3 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_3.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_3 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 2; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x61F570,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_3.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_3.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_3); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_3.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -5,
+    z: 7,
+    repeat: -1
+  });
+}); // Model 4
+
+var model_4 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_4.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_4 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(0.5, 0, -4);
+  gltf.scene.position.y = -modelsDistance * 2.75; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x7161F5,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_4.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_4.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_4); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_4.rotation, {
+    duration: 500,
+    delay: 0,
+    x: -5,
+    y: 7,
+    repeat: -1
+  });
+}); // Model 5
+
+var model_5 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_5.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_5 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2.5, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 3.6; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x040117,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_5.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_5.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_5); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_5.rotation, {
+    duration: 500,
+    delay: 0,
+    x: -5,
+    y: 7,
+    repeat: -1
+  });
+}); // Model 6
+
+var model_6 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_6.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_6 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-1, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 4.65; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x61F570,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_6.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_6.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_6); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_6.rotation, {
+    duration: 500,
+    delay: 0,
+    x: -5,
+    y: 7,
+    repeat: -1
+  });
+}); // Model 7
+
+var model_7 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_7.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+  model_7 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2.5, 0, -1.5);
+  gltf.scene.position.y = -modelsDistance * 5.65; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x040117,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_7.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_7.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  });
+  scene.add(model_7); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_7.rotation, {
+    duration: 500,
+    delay: 0,
+    x: -5,
+    y: 7,
+    repeat: -1
+  });
+}); // // Animated cube
+// let mixer
+// let model1 = new GLTFLoader()
+// model1.load('../src/assets/models/test/test.gltf', function (gltf) {
+//     // Model
+//     model1 = gltf.scene
+//     gltf.scene.scale.set(0.35, 0.35, 0.35)
+//     gltf.scene.position.set(-2, 0, 0)
+//     gltf.scene.position.y = -modelsDistance * 0
+//     // Texture
+//     const textureLoader = new THREE.TextureLoader()
+//     const normalMapTexture = textureLoader.load("../src/assets/models/test/Marble03_4K_Normal.png")
+//     const modelColorTexture = textureLoader.load('../src/assets/models/test/Marble03_4K_BaseColor.png')
+//     normalMapTexture.wrapS = THREE.RepeatWrapping
+//     normalMapTexture.wrapT = THREE.RepeatWrapping
+//     // Material
+//     const newMaterial = new THREE.MeshPhysicalMaterial({
+//         color: 0x7161F5,
+//         map: modelColorTexture,
+//         normalMap: normalMapTexture,
+//         metalness: 0.75,
+//         roughness: 0.25,
+//         transmission: 0.25,
+//         thickness: 0.75,
+//     })
+//     model1.traverse((o) => {
+//         if (o.isMesh) o.material = newMaterial
+//     })
+//     scene.add(gltf.scene)
+//     // Animation
+//     mixer = new THREE.AnimationMixer(model1)
+//     const clips = gltf.animations
+//     clips.forEach(function (clip) {
+//         mixer.clipAction(clip).play()
+//     })
+//     const animationClock = new THREE.Clock()
+//     function animate() {
+//         mixer.update(animationClock.getDelta())
+//         renderer.render(scene, camera)
+//     }
+//     renderer.setAnimationLoop(animate)
+//     // Rotation
+//     gsap.to(model1.rotation, {
+//         duration: 500,
+//         delay: 0,
+//         y: -15,
+//         repeat: -1
+//     })
+// })
+// ----------------- Render -----------------
 // Render 1
 
-var renderer = new three__WEBPACK_IMPORTED_MODULE_2__.WebGLRenderer({
+var renderer = new three__WEBPACK_IMPORTED_MODULE_3__.WebGLRenderer({
   canvas: canvas_1,
   antialias: true,
   alpha: true
 });
-renderer.toneMapping = three__WEBPACK_IMPORTED_MODULE_2__.ACESFilmicToneMapping;
+renderer.toneMapping = three__WEBPACK_IMPORTED_MODULE_3__.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1;
-renderer.outputEncoding = three__WEBPACK_IMPORTED_MODULE_2__.sRGBEncoding;
+renderer.outputEncoding = three__WEBPACK_IMPORTED_MODULE_3__.sRGBEncoding;
 renderer.setSize(sizes.width, sizes.height);
 document.body.appendChild(renderer.domElement); // ----------------- Section paralax -----------------
 
@@ -61798,7 +62798,7 @@ window.addEventListener('scroll', function () {
 // gui.add(directionalLight.position, 'z').min(- 3).max(3).step(0.01).name('directionalLight Z')
 // ----------------- Clock -----------------/
 
-var clock = new three__WEBPACK_IMPORTED_MODULE_2__.Clock();
+var clock = new three__WEBPACK_IMPORTED_MODULE_3__.Clock();
 
 var tick = function tick() {
   var elapsedTime = clock.getElapsedTime(); // Animate camera
@@ -61843,4 +62843,4 @@ window.addEventListener('resize', onWindowResize, false);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlec810e91b4f2200d1f46a.js.map
+//# sourceMappingURL=bundleb6d415e513b9c9845533.js.map

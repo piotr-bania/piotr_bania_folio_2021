@@ -1,4 +1,23 @@
+@font-face {
+    font-family: "Expansiva";
+    src: url(/src//assets/fonts/Expansiva/Expansiva.otf);
+}
 
+@font-face {
+    font-family: "Expansiva Bold";
+    src: url(/src//assets/fonts/expansiva/Expansiva-bold.otf);
+
+}
+
+@font-face {
+    font-family: "Arkitech Light";
+    src: url(/src//assets/fonts/Arkitech/Arkitech-Light.ttf);
+}
+
+@font-face {
+    font-family: "Arkitech Medium";
+    src: url(/src//assets/fonts/Arkitech/Arkitech-Medium.ttf);
+}
 
 // ------------------------------ Variables ------------------------------
 
@@ -71,13 +90,157 @@ body {
     user-select: none;
 }
 
-// ------------------------------ Canvas ------------------------------
+// ------------------------------ Fonts ------------------------------
 
-.canvas-1 {
-    position: fixed;
-    top: 0;
-    max-width: 100%;
-    max-height: 100%;
+h1 {
+    font-family: var(--header-alternative);
+    font-size: 2.074rem;
+    line-height: 1.2;
+    color: var(--light);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: var(--header-alternative);
+    font-size: 1.728rem;
+    line-height: 1.2;
+    color: var(--grey-text);
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: var(--header-alternative);
+    font-size: 1.44rem;
+    line-height: 1.2;
+    color: var(--red);
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: var(--body-font);
+    font-size: var(--text-font-size);
+    line-height: 1.6;
+}
+
+a {
+    text-shadow: var(--main-shadow);
+    font-family: var(--header-font);
+    font-size: var(--links-font-size);
+    color: var(--grey-text);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--green);
+}
+
+// ------------------------------ Sections ------------------------------
+
+section {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    padding: 75px 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1468px;
+    z-index: 80;
+}
+
+#section-a {
+    height: 100vh;
+
+    .container {
+        background-image: url(/src/assets/images/backgrounds/PiotrBania.svg);
+    }
+
+    h1 {
+        color: var(--light);
+    }
+}
+
+#section-b {
+    .container {
+        background-image: url(/src//assets/images/backgrounds/Portfolio.svg);
+    }
+}
+
+#section-c {
+    .container {
+        background-image: url(/src//assets/images/backgrounds/Lab.svg);
+    }
+}
+
+#section-d {
+    .container {
+        background-image: url(/src//assets/images/backgrounds/Skills.svg);
+    }
+}
+
+#section-e {
+    .container {
+        background-image: url(/src//assets/images/backgrounds/About.svg);
+    }
+}
+
+#section-f {
+    .container {
+        background-image: url(/src//assets/images/backgrounds/contact.svg);
+    }
+}
+
+#section-a {
+    background: linear-gradient(to right, var(--darker), var(--dark));
+
+    .container {
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+#section-b,
+#section-d,
+#section-f {
+    background: linear-gradient(to left, var(--darker), var(--dark));
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .container {
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+#section-c,
+#section-e {
+    background-image: linear-gradient(to left, var(--lighter), var(--light));
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .container {
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1,
+    p {
+        color: var(--dark);
+    }
 }
 
 // ------------------------------ Header ------------------------------
@@ -91,3 +254,747 @@ body {
     z-index: 100;
 }
 
+.menu {
+    position: fixed;
+    width: 100%;
+    right: 10vw;
+    top: 57px;
+    z-index: 90;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    visibility: visible;
+
+    ul {
+        display: flex;
+        padding-top: 9px;
+
+        li {
+            padding-right: 3vw;
+        }
+    }
+}
+
+.open-menu {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    cursor: pointer;
+    z-index: 98;
+    visibility: hidden;
+}
+
+.closed-menu {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    cursor: pointer;
+    z-index: 98;
+    visibility: hidden;
+}
+
+#nav-content {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    max-width: 600px;
+    z-index: 99;
+    background: linear-gradient(90deg, var(--dark) 0%, var(--darker) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform: translateX(105%);
+    transition: 0.5s ease transform;
+    visibility: hidden;
+
+    a {
+        display: inline-block;
+        width: 100%;
+        color: var(--light);
+        transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+        color: var(--green);
+    }
+}
+
+#nav-content.show {
+    transform: translateX(0);
+    box-shadow:
+        0px 0px 7.8px rgba(0, 0, 0, 0.053),
+        0px 0px 17.2px rgba(0, 0, 0, 0.078),
+        0px 0px 28.8px rgba(0, 0, 0, 0.096),
+        0px 0px 43.4px rgba(0, 0, 0, 0.111),
+        0px 0px 62.6px rgba(0, 0, 0, 0.125),
+        0px 0px 88.6px rgba(0, 0, 0, 0.139),
+        0px 0px 125.7px rgba(0, 0, 0, 0.154),
+        0px 0px 182.5px rgba(0, 0, 0, 0.172),
+        0px 0px 281.3px rgba(0, 0, 0, 0.197),
+        0px 0px 500px rgba(0, 0, 0, 0.25);
+}
+
+#nav-content .section-heading {
+    text-align: left;
+    font-size: 1.65rem;
+    font-family: var(--header-font);
+    color: var(--purple);
+    padding-bottom: 20px;
+}
+
+#nav-content .wrapper {
+    width: 70%;
+    position: relative;
+}
+
+#nav-content .closed-menu {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transition: 0.3s ease-in-out;
+}
+
+// ------------------------------ Canvas ------------------------------
+
+.canvas-1 {
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+// ------------------------------ Hero section ------------------------------
+
+strong {
+    font-family: var(--header-alternative);
+    color: var(--green);
+}
+
+b {
+    font-family: var(--header-alternative-bold);
+    color: var(--green);
+}
+
+span {
+    color: var(--purple);
+}
+
+.text {
+    color: var(--light);
+}
+
+.cursor {
+    color: var(--green);
+}
+
+#section-a {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .heroText {
+            grid-area: 2 / 2 / 3 / 9;
+        }
+
+        .upper-heading {
+            padding-bottom: 10px;
+        }
+
+        .lower-heading {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+// ------------------------------ Portfolio section ------------------------------
+
+#section-b {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(11);
+
+        .current,
+        .other {
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .project {
+            padding-bottom: 50px;
+            z-index: 50;
+
+            img {
+                width: 80%;
+                margin-left: 20%;
+                border: 1px solid var(--purple);
+                border-radius: 20px;
+                opacity: 0.66;
+                filter: grayscale(100%);
+                transition: all 0.3s ease-in-out;
+            }
+
+            img:hover {
+                opacity: 1;
+                filter: grayscale(0%);
+                border-color: var(--green);
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin-left: 10%;
+                word-spacing: 5px;
+
+                a {
+                    padding-left: 50px;
+                }
+            }
+        }
+
+        .current {
+            grid-area: 1 / 3 / 2 / 12;
+        }
+
+        .project1 {
+            grid-area: 2 / 1 / 4 / 5;
+        }
+
+        .project2 {
+            grid-area: 3 / 9 / 5 / 15;
+        }
+
+        .project3 {
+            grid-area: 4 / 4 / 6 / 8;
+        }
+
+        .other {
+            grid-area: 6 / 3 / 7 / 12;
+        }
+
+        .project4 {
+            grid-area: 7 / 1 / 9 / 5;
+        }
+
+        .project5 {
+            grid-area: 8 / 9 / 10 / 15;
+        }
+
+        .project6 {
+            grid-area: 9 / 4 / 11 / 8;
+        }
+    }
+}
+
+// ------------------------------ Lab section ------------------------------
+
+#section-c {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2);
+
+        .lab {
+            grid-area: 1 / 3 / 2 / 12;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .labProject {
+            padding-bottom: 50px;
+            margin: auto;
+
+            img {
+                width: 80%;
+                margin-left: 10%;
+                border: 1px solid var(--purple);
+                border-radius: 20px;
+                opacity: 0.66;
+                filter: grayscale(100%);
+                transition: all 0.3s ease-in-out;
+            }
+
+            img:hover {
+                opacity: 1;
+                filter: grayscale(0%);
+                border-color: var(--green);
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin-right: 10%;
+                word-spacing: 5px;
+
+                a {
+                    padding-left: 50px;
+                }
+            }
+        }
+
+        .lab1 {
+            grid-area: 2 / 1 / 3 / 5;
+        }
+
+        .lab2 {
+            grid-area: 2 / 5 / 3 / 9;
+        }
+
+        .lab3 {
+            grid-area: 2 / 9 / 3 / 14;
+        }
+    }
+}
+
+// ------------------------------ About section ------------------------------
+
+#section-e {
+    .vl {
+        border-left: 2px solid var(--purple);
+        height: 300px;
+        position: absolute;
+    }
+
+    p {
+        position: relative;
+        left: 20px;
+        max-width: 80%;
+        display: inline;
+
+    }
+
+    .purple {
+        color: var(--purple);
+    }
+
+    .purple-blue {
+        color: var(--purple-blue);
+    }
+
+    .blue-turquoise {
+        color: var(--blue-turquoise);
+    }
+
+    .red {
+        color: var(--red);
+    }
+
+    .green {
+        color: var(--green);
+    }
+
+    .grey {
+        color: var(--grey-text);
+    }
+}
+
+// ------------------------------ Buttons ------------------------------
+
+button {
+    font-family: var(--header-font);
+    font-size: var(--links-font-size);
+    color: var(--light);
+    border-radius: 30px 10px 20px 10px;
+    padding: 15px 30px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: var(--main-shadow);
+    white-space: nowrap;
+    border: 1px solid var(--dark);
+    background: linear-gradient(-45deg, #7161F5 0%, #0E065C 100%);
+    background-size: 400% 400%;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 0.3s ease-in-out;
+    box-shadow: var(--main-shadow);
+
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #0AA119;
+        background: linear-gradient(-45deg, #61F570 0%, #0AA119 100%);
+        box-shadow: var(--hover-shadow);
+        text-shadow: var(--hover-shadow);
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+// ------------------------------ Progress bar ------------------------------
+
+.progressSection {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    width: 1px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    will-change: transform;
+    transition: 0.3s ease-in-out;
+    z-index: 90;
+}
+
+.progressBarWrap {
+    position: relative;
+    width: 1px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--purple);
+    box-shadow: var(--main-shadow);
+}
+
+.progressBar {
+    position: absolute;
+    transform: translateX(-1px);
+    bottom: 0;
+    width: 3px;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    height: 0%;
+    background-color: var(--green);
+    box-shadow: var(--main-shadow);
+}
+
+.progressNum {
+    font-family: var(--header-font);
+    font-size: var(--links-font-size);
+    color: var(--grey-text);
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+
+// ------------------------------ Strips ------------------------------
+
+.strip {
+    position: fixed;
+    width: 1px;
+    height: 100vh;
+    background: linear-gradient(0deg, #7161F500 0%, #7161F54D 100%);
+    z-index: 50;
+}
+
+.one {
+    left: 26.66%;
+    top: 0;
+}
+
+.two {
+    left: 50%;
+    top: 0;
+}
+
+.three {
+    right: 26.66%;
+    top: 0;
+}
+
+// ------------------------------ Media queries ------------------------------
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    h1 {
+        font-size: 1.602rem;
+    }
+
+    h2 {
+        font-size: 1.424rem;
+    }
+
+    h3 {
+        font-size: 1.266rem;
+    }
+
+    p {
+        font-size: calc(var(--text-font-size) - 1px);
+    }
+
+    button {
+        font-size: calc(var(--links-font-size) - 1px);
+        border-radius: 28px 9px 18px 9px;
+        padding: 13px 26px;
+    }
+
+    #section-a {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            .heroText {
+                grid-area: 2 / 1 / 3 / 12;
+            }
+        }
+    }
+
+    #section-b {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12);
+
+            .current,
+            .other {
+                padding-bottom: 100px;
+            }
+
+            .project {
+                padding-bottom: 50px;
+            }
+
+            .current {
+                grid-area: 1 / 2 / 2 / 12;
+            }
+
+            .project1 {
+                grid-area: 2 / 1 / 3 / 8;
+            }
+
+            .project2 {
+                grid-area: 3 / 6 / 4 / 15;
+            }
+
+            .project3 {
+                grid-area: 4 / 4 / 5 / 11;
+            }
+
+            .other {
+                grid-area: 5 / 2 / 6 / 12;
+            }
+
+            .project4 {
+                grid-area: 6 / 1 / 7 / 8;
+            }
+
+            .project5 {
+                grid-area: 7 / 6 / 8 / 15;
+            }
+
+            .project6 {
+                grid-area: 8 / 4 / 9 / 11;
+            }
+        }
+    }
+
+    #section-c {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6);
+
+            .lab1 {
+                grid-area: 2 / 1 / 3 / 7;
+            }
+
+            .lab2 {
+                grid-area: 2 / 7 / 3 / 13;
+            }
+
+            .lab3 {
+                grid-area: 3 / 4 / 4 / 10;
+            }
+        }
+    }
+
+    #section-c {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(6);
+
+            .lab1 {
+                grid-area: 2 / 1 / 3 / 7;
+            }
+
+            .lab2 {
+                grid-area: 2 / 7 / 3 / 13;
+            }
+
+            .lab3 {
+                grid-area: 3 / 4 / 4 / 10;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+
+    .open-menu,
+    .closed-menu {
+        width: 50px;
+        height: 50px;
+        visibility: visible;
+    }
+
+    #nav-content {
+        visibility: visible;
+    }
+
+    #nav-content a {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.296rem;
+    }
+
+    h2 {
+        font-size: 1.215rem;
+    }
+
+    h3 {
+        font-size: 1.138rem;
+    }
+
+    p {
+        font-size: calc(var(--text-font-size) - 2px);
+    }
+
+    button {
+        font-size: calc(var(--links-font-size) - 2px);
+        border-radius: 26px 8px 16px 8px;
+        padding: 12px 24px;
+    }
+
+    .heading {
+        width: 80%;
+        left: 10%;
+    }
+
+    .heroText {
+        left: 11%;
+        bottom: 16%;
+    }
+
+    .upper-heading {
+        padding-bottom: 10px;
+    }
+
+    .lower-heading {
+        padding-bottom: 20px;
+    }
+
+    #section-a {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            .heroText {
+                grid-area: 2 / 1 / 3 / 15;
+            }
+        }
+    }
+
+    #section-b {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12);
+
+            .current,
+            .other {
+                padding-bottom: 100px;
+            }
+
+            .project {
+                padding-bottom: 50px;
+
+                img {
+                    margin-left: 10%;
+                    opacity: 1;
+                }
+
+                ul {
+                    margin-left: 0%;
+                    margin-right: 10%;
+                }
+            }
+
+            .current {
+                grid-area: 1 / 1 / 2 / 15;
+            }
+
+            .project1 {
+                grid-area: 2 / 1 / 3 / 15;
+            }
+
+            .project2 {
+                grid-area: 3 / 1 / 4 / 15;
+            }
+
+            .project3 {
+                grid-area: 4 / 1 / 5 / 15;
+            }
+
+            .other {
+                grid-area: 5 / 1 / 6 / 15;
+            }
+
+            .project4 {
+                grid-area: 6 / 1 / 7 / 15;
+            }
+
+            .project5 {
+                grid-area: 7 / 1 / 8 / 15;
+            }
+
+            .project6 {
+                grid-area: 8 / 1 / 9 / 15;
+            }
+        }
+    }
+
+    #section-c {
+        .container {
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12);
+
+            .lab1 {
+                grid-area: 2 / 1 / 3 / 15;
+            }
+
+            .lab2 {
+                grid-area: 3 / 1 / 4 / 15;
+            }
+
+            .lab3 {
+                grid-area: 4 / 1 / 5 / 15;
+            }
+
+            .labProject {
+                padding-bottom: 50px;
+
+                img {
+                    margin-left: 10%;
+                    opacity: 1;
+                }
+
+                ul {
+                    margin-left: 0%;
+                    margin-right: 10%;
+                }
+            }
+        }
+    }
+}

@@ -6,17 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Piotr | Portfolio</title>
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/images/logo/PB_logo.svg" type="image/x-icon">
 
-    <title>Piotr | Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/ifq5vfd.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+    <!-- ------------------------------ Progress bar ------------------------------ -->
+
+    <div class="progressSection">
+        <div class="progressBarWrap"></div>
+        <div class="progressBar"></div>
+        <div class="progressNum"></div>
+    </div>
+
+    <!-- ------------------------------ Strips ------------------------------ -->
+
+    <div class="strips">
+        <div class="strip one"></div>
+        <div class="strip two"></div>
+        <div class="strip three"></div>
+    </div>
+
+    <!-- ------------------------------ Sections ------------------------------ -->
+
     <!-- ------------------------------ Header section ------------------------------ -->
 
-    <a href="#section-a"><img class="logo" src="./assets/images/logo/PB_logo.svg" alt="logo"></a>
+    <div class="header">
+        <div>
+            <a href="#section-a"><img class="logo" src="/src/assets/images/logo/PB_logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#section-a">Home</a></li>
+                <li><a href="#section-b">Portfolio</a></li>
+                <li><a href="#section-c">Lab</a></li>
+                <li><a href="#section-d">Skills</a></li>
+                <li><a href="#section-e">About</a></li>
+                <li><a href="#section-f">Contact</a></li>
+            </ul>
+            <a href="#"><button>Resume</button></a>
+        </div>
+    </div>
+
+    <div class="open-menu">
+        <img src="/src/assets/images/icons/menu-closed.svg" alt="closed menu">
+    </div>
+
+    <div id="nav-content">
+        <div class="closed-menu">
+            <img src="/src/assets/images/icons/menu-open.svg" alt="">
+        </div>
+
+        <div class="wrapper">
+            <h2 class="section-heading">Menu</h2>
+            <nav>
+                <ul>
+                    <li><a href="#section-a">Home</a></li>
+                    <li><a href="#section-b">Portfolio</a></li>
+                    <li><a href="#section-c">Lab</a></li>
+                    <li><a href="#section-d">Skills</a></li>
+                    <li><a href="#section-e">About</a></li>
+                    <li><a href="#section-f">Contact</a></li>
+                </ul>
+            </nav>
+            <br>
+            <a href="#"><button>Resume</button></a>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
 
     <!-- ------------------------------ Hero section ------------------------------ -->
 
@@ -40,6 +112,216 @@
             <canvas class="canvas-1"></canvas>
         </div>
     </section>
+
+    <!-- ------------------------------ Portfolio section ------------------------------ -->
+
+    <section id="section-b">
+        <div class="container">
+            <div class="heading current">
+                <h1>Portfolio <strong>—</strong></h1>
+                <h2>current projects</h2>
+            </div>
+
+            <div class="project project1">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi
+                    iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project project2">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project project3">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="heading other">
+                <h1>Portfolio <strong>—</strong></h1>
+                <h2>other projects</h2>
+            </div>
+
+            <div class="project project4">
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project project5">
+                <h3>Project 5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project project6">
+                <h3>Project 6</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ Lab section ------------------------------ -->
+
+    <section id="section-c">
+        <div class="container">
+            <div class="heading lab">
+                <h1>Lab <strong>—</strong></h2>
+                    <h2>small projects, archived stuff and more...</h2>
+            </div>
+
+            <div class="labProject lab1">
+                <h3>Lab project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="labProject lab2">
+                <h3>Lab project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="labProject lab3">
+                <h3>Lab project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                <div>
+                    <img src="../src/assets/images/projects/project-1.jpg" alt="project 1">
+                    <ul>
+                        <li><a href="#">View Live</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ Skills section ------------------------------ -->
+
+    <section id="section-d">
+        <div class="container">
+            <div class="heading">
+                <h1>Skills <strong>—</strong></h2>
+                    <h2>technologies, languages and tools
+                        I am familiar with</h2>
+            </div>
+
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ About section ------------------------------ -->
+
+    <section id="section-e">
+        <div class="container">
+            <div class="heading">
+                <h1>About <strong>—</strong></h2>
+                    <h2>let me to introduce myself</h2>
+            </div>
+
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ Contact section ------------------------------ -->
+
+    <section id="section-f">
+        <div class="container">
+            <div class="heading">
+                <h1>Contact <strong>—</strong></h2>
+                    <h2>let's colaborate</h2>
+            </div>
+            <div>
+                <p>Contact me.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi maxime quibusdam commodi iusto
+                    minus dolore sed nihil distinctio amet?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------ Scripts ------------------------------ -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <!-- Other scripts -->
+    <script src="/src/scripts/progress_bar.js"></script>
+    <script src="/src/scripts/menu.js"></script>
+    <script type="module" src="/src/scripts/animated_text.js"></script>
+
 </body>
 
 </html>

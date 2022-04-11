@@ -47,6 +47,17 @@ module.exports = {
             //     }
             // },
             {
+                test: /\.gltf$/,
+                use: [{
+                        loader: 'file-loader',
+                        options: {
+                            esModule: false
+                        },
+                    },
+                    '@vxna/gltf-loader',
+                ],
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {

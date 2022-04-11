@@ -52,6 +52,7 @@
     "get-stream": "^6.0.1",
     "glob-to-regexp": "^0.4.1",
     "graceful-fs": "^4.2.10",
+    "gsap": "^3.10.2",
     "has": "^1.0.3",
     "has-flag": "^4.0.0",
     "human-signals": "^2.1.0",

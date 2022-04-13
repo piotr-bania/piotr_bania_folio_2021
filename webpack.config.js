@@ -59,6 +59,12 @@ module.exports = {
                 ]
             },
 
+            // Url
+            {
+                test: /\.hdr$/,
+                use: "url-loader"
+            },
+
             // Images
             // {
             //     test: /\.(jpg|png|gif|svg)$/,

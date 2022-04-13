@@ -97,7 +97,10 @@ new RGBELoader()
 
 // ----------------- 3d models -----------------
 
-import sphere from './models/3d.glb'
+import sphere from './models/model1.glb'
+import sphere2 from './models/model2.glb'
+import sphere3 from './models/model3.glb'
+import sphere4 from './models/model4.glb'
 
 let modelsDistance = 5
 
@@ -142,7 +145,7 @@ model_1.load(sphere, function (gltf) {
 
 // Model 2
 let model_2 = new GLTFLoader()
-model_2.load(sphere, function (gltf) {
+model_2.load(sphere2, function (gltf) {
     model_2 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-0.5, 0, -3)
@@ -181,7 +184,7 @@ model_2.load(sphere, function (gltf) {
 
 // Model 3
 let model_3 = new GLTFLoader()
-model_3.load(sphere, function (gltf) {
+model_3.load(sphere3, function (gltf) {
     model_3 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2, 0, -1)
@@ -220,7 +223,7 @@ model_3.load(sphere, function (gltf) {
 
 // Model 4
 let model_4 = new GLTFLoader()
-model_4.load(sphere, function (gltf) {
+model_4.load(sphere4, function (gltf) {
     model_4 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(0.5, 0, -4)
@@ -298,7 +301,7 @@ model_5.load(sphere, function (gltf) {
 
 // Model 6
 let model_6 = new GLTFLoader()
-model_6.load(sphere, function (gltf) {
+model_6.load(sphere2, function (gltf) {
     model_6 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-1, 0, -1)
@@ -337,7 +340,7 @@ model_6.load(sphere, function (gltf) {
 
 // Model 7
 let model_7 = new GLTFLoader()
-model_7.load(sphere, function (gltf) {
+model_7.load(sphere3, function (gltf) {
     model_7 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2.5, 0, -1.5)
@@ -372,6 +375,45 @@ model_7.load(sphere, function (gltf) {
     })
 
     scene.add(model_7)
+})
+
+// Model 8
+let model_8 = new GLTFLoader()
+model_8.load(sphere4, function (gltf) {
+    model_8 = gltf.scene
+    gltf.scene.scale.set(0.5, 0.5, 0.5)
+    gltf.scene.position.set(0, 0, 0)
+    gltf.scene.position.y = -modelsDistance * 6.65
+
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x7161F5,
+        metalness: 1,
+        roughness: 0,
+        transmission: 1,
+        thickness: 0,
+    })
+
+    model_8.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
+
+    model_8.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
+
+    // Animation
+    gsap.to(model_8.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
+
+    scene.add(model_8)
 })
 
 // ----------------- Render -----------------

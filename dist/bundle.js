@@ -62482,15 +62482,15 @@ model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_1.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
   });
   scene.add(model_1);
-}); // Animation
-
-gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_1.rotation, {
-  duration: 500,
-  delay: 0,
-  y: -15,
-  repeat: -1
 }); // Model 2
 
 var model_2 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
@@ -62515,6 +62515,13 @@ model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_2.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
   });
   scene.add(model_2);
 }); // Model 3
@@ -62541,6 +62548,13 @@ model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_3.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
   });
   scene.add(model_3);
 }); // Model 4
@@ -62568,16 +62582,15 @@ model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
-  });
-  scene.add(model_4); // Animation
+  }); // Animation
 
   gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_4.rotation, {
     duration: 500,
     delay: 0,
-    x: -5,
-    y: 7,
+    y: -15,
     repeat: -1
   });
+  scene.add(model_4);
 }); // Model 5
 
 var model_5 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
@@ -62603,16 +62616,15 @@ model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
-  });
-  scene.add(model_5); // Animation
+  }); // Animation
 
   gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_5.rotation, {
     duration: 500,
     delay: 0,
-    x: -5,
-    y: 7,
+    y: -15,
     repeat: -1
   });
+  scene.add(model_5);
 }); // Model 6
 
 var model_6 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
@@ -62638,16 +62650,15 @@ model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
-  });
-  scene.add(model_6); // Animation
+  }); // Animation
 
   gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_6.rotation, {
     duration: 500,
     delay: 0,
-    x: -5,
-    y: 7,
+    y: -15,
     repeat: -1
   });
+  scene.add(model_6);
 }); // Model 7
 
 var model_7 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
@@ -62673,66 +62684,16 @@ model_7.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
       n.receiveShadow = true;
       if (n.material.map) n.material.map.anisotropy = 16;
     }
-  });
-  scene.add(model_7); // Animation
+  }); // Animation
 
   gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(model_7.rotation, {
     duration: 500,
     delay: 0,
-    x: -5,
-    y: 7,
+    y: -15,
     repeat: -1
   });
-}); // // Animated cube
-// let mixer
-// let model1 = new GLTFLoader()
-// model1.load('../src/assets/models/test/test.gltf', function (gltf) {
-//     // Model
-//     model1 = gltf.scene
-//     gltf.scene.scale.set(0.35, 0.35, 0.35)
-//     gltf.scene.position.set(-2, 0, 0)
-//     gltf.scene.position.y = -modelsDistance * 0
-//     // Texture
-//     const textureLoader = new THREE.TextureLoader()
-//     const normalMapTexture = textureLoader.load("../src/assets/models/test/Marble03_4K_Normal.png")
-//     const modelColorTexture = textureLoader.load('../src/assets/models/test/Marble03_4K_BaseColor.png')
-//     normalMapTexture.wrapS = THREE.RepeatWrapping
-//     normalMapTexture.wrapT = THREE.RepeatWrapping
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x7161F5,
-//         map: modelColorTexture,
-//         normalMap: normalMapTexture,
-//         metalness: 0.75,
-//         roughness: 0.25,
-//         transmission: 0.25,
-//         thickness: 0.75,
-//     })
-//     model1.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     scene.add(gltf.scene)
-//     // Animation
-//     mixer = new THREE.AnimationMixer(model1)
-//     const clips = gltf.animations
-//     clips.forEach(function (clip) {
-//         mixer.clipAction(clip).play()
-//     })
-//     const animationClock = new THREE.Clock()
-//     function animate() {
-//         mixer.update(animationClock.getDelta())
-//         renderer.render(scene, camera)
-//     }
-//     renderer.setAnimationLoop(animate)
-//     // Rotation
-//     gsap.to(model1.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-// })
-// ----------------- Render -----------------
+  scene.add(model_7);
+}); // ----------------- Render -----------------
 // Render 1
 
 var renderer = new three__WEBPACK_IMPORTED_MODULE_3__.WebGLRenderer({
@@ -62773,8 +62734,8 @@ var clock = new three__WEBPACK_IMPORTED_MODULE_3__.Clock();
 
 var tick = function tick() {
   var elapsedTime = clock.getElapsedTime(); // Animate camera
-  // camera.position.y = -scrollY / sizes.height * modelsDistance
-  // Render
+
+  camera.position.y = -scrollY / sizes.height * modelsDistance; // Render
 
   renderer.render(scene, camera); // Call tick again on the next frame
 

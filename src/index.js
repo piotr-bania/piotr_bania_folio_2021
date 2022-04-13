@@ -408,10 +408,10 @@ window.addEventListener('scroll', () => {
 
 // ----------------- Helpers -----------------
 
-const gridHelper = new THREE.GridHelper(2, 2)
-scene.add(gridHelper)
-const axesHelper = new THREE.AxesHelper(5)
-scene.add(axesHelper)
+// const gridHelper = new THREE.GridHelper(2, 2)
+// scene.add(gridHelper)
+// const axesHelper = new THREE.AxesHelper(5)
+// scene.add(axesHelper)
 
 // ----------------- GUI -----------------/
 

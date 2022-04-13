@@ -10,9 +10,6 @@ import {
     gsap
 } from 'gsap'
 
-// import sphere from './assets/models/sphere/sphere.gltf'
-// import sphere2 from './assets/models/sphere2/sphere2.gltf'
-
 // ----------------- Canvas -----------------
 
 const canvas_1 = document.querySelector('canvas.canvas-1')
@@ -23,41 +20,41 @@ const scene = new THREE.Scene()
 
 // ----------------- Particles -----------------
 
-const textureLoader = new THREE.TextureLoader()
-const particleTexture = textureLoader.load('../assets/particles/twirl_03.png')
+// const textureLoader = new THREE.TextureLoader()
+// const particleTexture = textureLoader.load('./assets/images/particles/twirl_03.png')
 
-// Geometry
-const particlesGeometry = new THREE.BufferGeometry()
-const count = 20000
+// // Geometry
+// const particlesGeometry = new THREE.BufferGeometry()
+// const count = 20000
 
-const positions = new Float32Array(count * 3)
-for (let i = 0; i < count * 3; i++) {
-    positions[i] = (Math.random() - 0.5) * 100
-}
+// const positions = new Float32Array(count * 3)
+// for (let i = 0; i < count * 3; i++) {
+//     positions[i] = (Math.random() - 0.5) * 100
+// }
 
-particlesGeometry.setAttribute(
-    'position',
-    new THREE.BufferAttribute(positions, 3)
-)
+// particlesGeometry.setAttribute(
+//     'position',
+//     new THREE.BufferAttribute(positions, 3)
+// )
 
-// Material
-const particlesMaterial = new THREE.PointsMaterial()
-particlesMaterial.size = 0.25
-particlesMaterial.sizeAttenuation = true
-particlesMaterial.color = new THREE.Color('#7161F5')
-particlesMaterial.transparent = true
-particlesMaterial.alphaMap = particleTexture
+// // Material
+// const particlesMaterial = new THREE.PointsMaterial()
+// particlesMaterial.size = 0.25
+// particlesMaterial.sizeAttenuation = true
+// particlesMaterial.color = new THREE.Color('#7161F5')
+// particlesMaterial.transparent = true
+// particlesMaterial.alphaMap = particleTexture
 
-// Points
-const particles = new THREE.Points(particlesGeometry, particlesMaterial)
-scene.add(particles)
+// // Points
+// const particles = new THREE.Points(particlesGeometry, particlesMaterial)
+// scene.add(particles)
 
-gsap.to(particles.rotation, {
-    duration: 1000,
-    delay: 0,
-    y: -5,
-    repeat: -1
-})
+// gsap.to(particles.rotation, {
+//     duration: 1000,
+//     delay: 0,
+//     y: -5,
+//     repeat: -1
+// })
 
 // ----------------- Sizes -----------------
 
@@ -100,32 +97,20 @@ let modelsDistance = 5
 
 // Model 1
 let model_1 = new GLTFLoader()
-model_1.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
-    // Model
+model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_1 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(0, 0, 0)
     gltf.scene.position.y = -modelsDistance * 0
 
-    // Texture
-    // const textureLoader = new THREE.TextureLoader()
-    // const normalMapTexture = textureLoader.load("../src/assets/models/test/Marble06_4K_Normal.png")
-    // const modelColorTexture = textureLoader.load('../src/assets/models/test/Marble06_4K_BaseColor.png')
-    // normalMapTexture.wrapS = THREE.RepeatWrapping
-    // normalMapTexture.wrapT = THREE.RepeatWrapping
-
-
-    // Material
     const newMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x7161F5,
-        // map: modelColorTexture,
-        // normalMap: normalMapTexture,
-        // clearcoatNormalMap: normalMapTexture,
         metalness: 1,
         roughness: 0,
         transmission: 1,
         thickness: 0,
     })
+
     model_1.traverse((o) => {
         if (o.isMesh) o.material = newMaterial
     })
@@ -139,25 +124,24 @@ model_1.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
     })
 
     scene.add(model_1)
+})
 
-    // Animation
-    gsap.to(model_1.rotation, {
-        duration: 500,
-        delay: 0,
-        y: -15,
-        repeat: -1
-    })
+// Animation
+gsap.to(model_1.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
 })
 
 // Model 2
 let model_2 = new GLTFLoader()
-model_2.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_2 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-0.5, 0, -3)
     gltf.scene.position.y = -modelsDistance * 1
 
-    // Material
     const newMaterial = new THREE.MeshPhysicalMaterial({
         color: 0xF57061,
         metalness: 1,
@@ -165,6 +149,7 @@ model_2.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
         transmission: 1,
         thickness: 0,
     })
+
     model_2.traverse((o) => {
         if (o.isMesh) o.material = newMaterial
     })
@@ -178,33 +163,24 @@ model_2.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
     })
 
     scene.add(model_2)
-
-    // Animation
-    gsap.to(model_2.rotation, {
-        duration: 500,
-        delay: 0,
-        x: -5,
-        y: 7,
-        repeat: -1
-    })
 })
 
 // Model 3
 let model_3 = new GLTFLoader()
-model_3.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_3 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2, 0, -1)
     gltf.scene.position.y = -modelsDistance * 2
 
-    // Material
     const newMaterial = new THREE.MeshPhysicalMaterial({
         color: 0x61F570,
-        metalness: 0.9,
-        roughness: 0.1,
-        transmission: 0.9,
-        thickness: 0.1,
+        metalness: 1,
+        roughness: 0,
+        transmission: 1,
+        thickness: 0,
     })
+
     model_3.traverse((o) => {
         if (o.isMesh) o.material = newMaterial
     })
@@ -218,20 +194,11 @@ model_3.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
     })
 
     scene.add(model_3)
-
-    // Animation
-    gsap.to(model_3.rotation, {
-        duration: 500,
-        delay: 0,
-        y: -5,
-        z: 7,
-        repeat: -1
-    })
 })
 
 // Model 4
 let model_4 = new GLTFLoader()
-model_4.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_4 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(0.5, 0, -4)
@@ -271,7 +238,7 @@ model_4.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
 
 // Model 5
 let model_5 = new GLTFLoader()
-model_5.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_5 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2.5, 0, -1)
@@ -311,7 +278,7 @@ model_5.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
 
 // Model 6
 let model_6 = new GLTFLoader()
-model_6.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_6 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-1, 0, -1)
@@ -351,7 +318,7 @@ model_6.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
 
 // Model 7
 let model_7 = new GLTFLoader()
-model_7.load('../src/assets/models/sphere2/sphere2.gltf', function (gltf) {
+model_7.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
     model_7 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2.5, 0, -1.5)
@@ -506,7 +473,7 @@ const tick = () => {
     const elapsedTime = clock.getElapsedTime()
 
     // Animate camera
-    camera.position.y = -scrollY / sizes.height * modelsDistance
+    // camera.position.y = -scrollY / sizes.height * modelsDistance
 
     // Render
     renderer.render(scene, camera)

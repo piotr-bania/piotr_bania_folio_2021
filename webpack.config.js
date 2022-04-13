@@ -1,17 +1,21 @@
-const path = require('path')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
 module.exports = {
     mode: 'development',
     entry: {
         bundle: path.resolve(__dirname, 'src/index.js')
     },
+
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name][contenthash].js',
+        // filename: '[name][contenthash].js',
+        filename: '[name].js',
         clean: true,
         assetModuleFilename: '[name][ext]'
     },
+
     devtool: 'source-map',
     devServer: {
         static: {
@@ -23,33 +27,17 @@ module.exports = {
         compress: true,
         historyApiFallback: true
     },
+
     module: {
-        rules: [{
-                test: /\.scss$/,
-                use: [
-                    'style-loader',
-                    'css-loader',
-                    'sass-loader'
-                ]
-            },
+        rules: [
+
+            // HTML
             {
                 test: /\.html$/,
                 use: ["html-loader"]
             },
-            // {
-            //     test: /\.gltf$/,
-            //     loader: "@vxna/gltf-loader",
-            //     options: {
-            //         inline: true
-            //     }
-            // },
-            // {
-            //     test: /\.(bin|png|jpe?g)$/,
-            //     loader: "file-loader",
-            //     options: {
-            //         esModule: false
-            //     }
-            // },
+
+            // JS
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
@@ -59,14 +47,57 @@ module.exports = {
                         presets: ['@babel/preset-env']
                     }
                 }
-            }
+            },
+
+            // CSS
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+
+            // Images
+            // {
+            //     test: /\.(jpg|png|gif|svg)$/,
+            //     use: [{
+            //         loader: 'file-loader',
+            //         options: {
+            //             outputPath: 'assets/images/'
+            //         }
+            //     }]
+            // },
+
+            // Models
+            // {
+            //     test: /\.(glb|gltf|fbx|obj)$/,
+            //     use: [{
+            //         loader: 'file-loader',
+            //         options: {
+            //             outputPath: 'assets/models/'
+            //         }
+            //     }]
+            // },
+
+            // Shaders
+            // {
+            //     test: /\.(glsl|vs|fs|vert|frag)$/,
+            //     exclude: /node_modules/,
+            //     use: [
+            //         'raw-loader',
+            //         'glslify-loader'
+            //     ]
+            // }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Test | ThreeJS',
             filename: 'index.html',
-            template: 'src/template.html'
+            template: 'src/template.html',
+            minify: true
         })
     ]
 }

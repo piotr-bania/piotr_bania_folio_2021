@@ -231,17 +231,59 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/models/3d.glb":
-/*!***************************!*\
-  !*** ./src/models/3d.glb ***!
-  \***************************/
+/***/ "./src/models/model1.glb":
+/*!*******************************!*\
+  !*** ./src/models/model1.glb ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "9a469830da886bfe24d4c4b43cdd9e44.glb");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "97aa47abfb8d42d056cdbc08381d4c0d.glb");
+
+/***/ }),
+
+/***/ "./src/models/model2.glb":
+/*!*******************************!*\
+  !*** ./src/models/model2.glb ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "538c53d223c9af955d3efcf19dc16ee0.glb");
+
+/***/ }),
+
+/***/ "./src/models/model3.glb":
+/*!*******************************!*\
+  !*** ./src/models/model3.glb ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "30cac8cf2ac0869f86fc8d2d3aaa7744.glb");
+
+/***/ }),
+
+/***/ "./src/models/model4.glb":
+/*!*******************************!*\
+  !*** ./src/models/model4.glb ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "be37025c6a07109ff3e373101a9720c4.glb");
 
 /***/ }),
 
@@ -62438,7 +62480,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
 /* harmony import */ var _particles_twirl_03_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./particles/twirl_03.png */ "./src/particles/twirl_03.png");
 /* harmony import */ var _hdri_gamrig_1k_hdr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./hdri/gamrig_1k.hdr */ "./src/hdri/gamrig_1k.hdr");
-/* harmony import */ var _models_3d_glb__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./models/3d.glb */ "./src/models/3d.glb");
+/* harmony import */ var _models_model1_glb__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./models/model1.glb */ "./src/models/model1.glb");
+/* harmony import */ var _models_model2_glb__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./models/model2.glb */ "./src/models/model2.glb");
+/* harmony import */ var _models_model3_glb__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./models/model3.glb */ "./src/models/model3.glb");
+/* harmony import */ var _models_model4_glb__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./models/model4.glb */ "./src/models/model4.glb");
 
 
 
@@ -62506,10 +62551,13 @@ new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoade
 }); // ----------------- 3d models -----------------
 
 
+
+
+
 var modelsDistance = 5; // Model 1
 
 var model_1 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_1.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_1.load(_models_model1_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
   model_1 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(0, 0, 0);
@@ -62542,7 +62590,7 @@ model_1.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 2
 
 var model_2 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_2.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_2.load(_models_model2_glb__WEBPACK_IMPORTED_MODULE_8__["default"], function (gltf) {
   model_2 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-0.5, 0, -3);
@@ -62575,7 +62623,7 @@ model_2.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 3
 
 var model_3 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_3.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_3.load(_models_model3_glb__WEBPACK_IMPORTED_MODULE_9__["default"], function (gltf) {
   model_3 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2, 0, -1);
@@ -62608,7 +62656,7 @@ model_3.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 4
 
 var model_4 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_4.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_4.load(_models_model4_glb__WEBPACK_IMPORTED_MODULE_10__["default"], function (gltf) {
   model_4 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(0.5, 0, -4);
@@ -62642,7 +62690,7 @@ model_4.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 5
 
 var model_5 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_5.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_5.load(_models_model1_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
   model_5 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2.5, 0, -1);
@@ -62676,7 +62724,7 @@ model_5.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 6
 
 var model_6 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_6.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_6.load(_models_model2_glb__WEBPACK_IMPORTED_MODULE_8__["default"], function (gltf) {
   model_6 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-1, 0, -1);
@@ -62710,7 +62758,7 @@ model_6.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
 }); // Model 7
 
 var model_7 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_7.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+model_7.load(_models_model3_glb__WEBPACK_IMPORTED_MODULE_9__["default"], function (gltf) {
   model_7 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2.5, 0, -1.5);
@@ -62741,6 +62789,39 @@ model_7.load(_models_3d_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (g
     repeat: -1
   });
   scene.add(model_7);
+}); // Model 8
+
+var model_8 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_8.load(_models_model4_glb__WEBPACK_IMPORTED_MODULE_10__["default"], function (gltf) {
+  model_8 = gltf.scene;
+  gltf.scene.scale.set(0.5, 0.5, 0.5);
+  gltf.scene.position.set(0, 0, 0);
+  gltf.scene.position.y = -modelsDistance * 6.65;
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x7161F5,
+    metalness: 1,
+    roughness: 0,
+    transmission: 1,
+    thickness: 0
+  });
+  model_8.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_8.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_8.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_8);
 }); // ----------------- Render -----------------
 // Render 1
 

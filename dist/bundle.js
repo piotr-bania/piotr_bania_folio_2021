@@ -62453,7 +62453,7 @@ spotLight.shadow.mapSize.width = 1024 * 4;
 spotLight.shadow.mapSize.height = 1024 * 4;
 scene.add(spotLight); // ----------------- HDRI -----------------
 
-new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoader().load("../src/HDRI/gamrig_1k.hdr", function (texture) {
+new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoader().load("../src/hdri/gamrig_1k.hdr", function (texture) {
   texture.mapping = three__WEBPACK_IMPORTED_MODULE_3__.EquirectangularReflectionMapping;
   scene.environment = texture;
 }); // ----------------- 3d models -----------------
@@ -62461,7 +62461,7 @@ new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoade
 var modelsDistance = 5; // Model 1
 
 var model_1 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_1.load("../src/models/sphere2.gltf", function (gltf) {
   model_1 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(0, 0, 0);
@@ -62494,7 +62494,7 @@ model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 2
 
 var model_2 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_2.load("../src/models/sphere2.gltf", function (gltf) {
   model_2 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-0.5, 0, -3);
@@ -62527,7 +62527,7 @@ model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 3
 
 var model_3 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_3.load("../src/models/sphere2.gltf", function (gltf) {
   model_3 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2, 0, -1);
@@ -62560,7 +62560,7 @@ model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 4
 
 var model_4 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_4.load("../src/models/sphere2.gltf", function (gltf) {
   model_4 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(0.5, 0, -4);
@@ -62594,7 +62594,7 @@ model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 5
 
 var model_5 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_5.load("../src/models/sphere2.gltf", function (gltf) {
   model_5 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2.5, 0, -1);
@@ -62628,7 +62628,7 @@ model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 6
 
 var model_6 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_6.load("../src/models/sphere2.gltf", function (gltf) {
   model_6 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-1, 0, -1);
@@ -62662,7 +62662,7 @@ model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 }); // Model 7
 
 var model_7 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
-model_7.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_7.load("../src/models/sphere2.gltf", function (gltf) {
   model_7 = gltf.scene;
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.position.set(-2.5, 0, -1.5);

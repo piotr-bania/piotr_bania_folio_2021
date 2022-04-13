@@ -86,7 +86,7 @@ scene.add(spotLight)
 // ----------------- HDRI -----------------
 
 new RGBELoader()
-    .load("../src/HDRI/gamrig_1k.hdr", function (texture) {
+    .load("../src/hdri/gamrig_1k.hdr", function (texture) {
         texture.mapping = THREE.EquirectangularReflectionMapping
         scene.environment = texture
     })
@@ -97,7 +97,7 @@ let modelsDistance = 5
 
 // Model 1
 let model_1 = new GLTFLoader()
-model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_1.load("../src/models/sphere2.gltf", function (gltf) {
     model_1 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(0, 0, 0)
@@ -138,7 +138,7 @@ model_1.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 
 // Model 2
 let model_2 = new GLTFLoader()
-model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_2.load("../src/models/sphere2.gltf", function (gltf) {
     model_2 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-0.5, 0, -3)
@@ -177,7 +177,7 @@ model_2.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 
 // Model 3
 let model_3 = new GLTFLoader()
-model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_3.load("../src/models/sphere2.gltf", function (gltf) {
     model_3 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2, 0, -1)
@@ -216,7 +216,7 @@ model_3.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 
 // Model 4
 let model_4 = new GLTFLoader()
-model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_4.load("../src/models/sphere2.gltf", function (gltf) {
     model_4 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(0.5, 0, -4)
@@ -255,7 +255,7 @@ model_4.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
 
 // Model 5
 let model_5 = new GLTFLoader()
-model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_5.load("../src/models/sphere2.gltf", function (gltf) {
     model_5 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2.5, 0, -1)
@@ -281,20 +281,20 @@ model_5.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
         }
     })
 
-        // Animation
-        gsap.to(model_5.rotation, {
-            duration: 500,
-            delay: 0,
-            y: -15,
-            repeat: -1
-        })
+    // Animation
+    gsap.to(model_5.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
     scene.add(model_5)
 })
 
 // Model 6
 let model_6 = new GLTFLoader()
-model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_6.load("../src/models/sphere2.gltf", function (gltf) {
     model_6 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-1, 0, -1)
@@ -320,20 +320,20 @@ model_6.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
         }
     })
 
-        // Animation
-        gsap.to(model_6.rotation, {
-            duration: 500,
-            delay: 0,
-            y: -15,
-            repeat: -1
-        })
+    // Animation
+    gsap.to(model_6.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
     scene.add(model_6)
 })
 
 // Model 7
 let model_7 = new GLTFLoader()
-model_7.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
+model_7.load("../src/models/sphere2.gltf", function (gltf) {
     model_7 = gltf.scene
     gltf.scene.scale.set(1, 1, 1)
     gltf.scene.position.set(-2.5, 0, -1.5)
@@ -359,13 +359,13 @@ model_7.load("../src/models/sphere2/sphere2.gltf", function (gltf) {
         }
     })
 
-        // Animation
-        gsap.to(model_7.rotation, {
-            duration: 500,
-            delay: 0,
-            y: -15,
-            repeat: -1
-        })
+    // Animation
+    gsap.to(model_7.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
     scene.add(model_7)
 })

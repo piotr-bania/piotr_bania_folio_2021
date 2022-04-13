@@ -67,7 +67,7 @@ module.exports = {
 
             // Images
             {
-                test: /\.(png)$/,
+                test: /\.(jpg|png|gif|svg)$/,
                 use: [{
                     loader: 'file-loader',
                     // options: {
@@ -77,15 +77,15 @@ module.exports = {
             },
 
             // Models
-            // {
-            //     test: /\.(glb|gltf|fbx|obj)$/,
-            //     use: [{
-            //         loader: 'file-loader',
-            //         options: {
-            //             outputPath: 'assets/models/'
-            //         }
-            //     }]
-            // },
+            {
+                test: /\.(glb|gltf|fbx|obj)$/,
+                use: [{
+                    loader: 'file-loader',
+                    // options: {
+                    //     outputPath: 'assets/models/'
+                    // }
+                }]
+            },
 
             // Shaders
             // {

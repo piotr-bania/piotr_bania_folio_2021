@@ -21,7 +21,6 @@ const scene = new THREE.Scene()
 // ----------------- Particles -----------------
 
 import twirl from './particles/twirl_03.png'
-console.log(twirl)
 
 const textureLoader = new THREE.TextureLoader()
 const particleTexture = textureLoader.load(twirl)
@@ -88,13 +87,17 @@ scene.add(spotLight)
 
 // ----------------- HDRI -----------------
 
-// new RGBELoader()
-//     .load("../src/hdri/gamrig_1k.hdr", function (texture) {
-//         texture.mapping = THREE.EquirectangularReflectionMapping
-//         scene.environment = texture
-//     })
+import hdri from './hdri/gamrig_1k.hdr'
+
+new RGBELoader()
+    .load(hdri, function (texture) {
+        texture.mapping = THREE.EquirectangularReflectionMapping
+        scene.environment = texture
+    })
 
 // ----------------- 3d models -----------------
+
+// import sphere from './models/sphere2.gltf'
 
 // let modelsDistance = 5
 

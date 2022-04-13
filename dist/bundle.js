@@ -6270,6 +6270,46 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/fonts/Arkitech/Arkitech-Light.ttf":
+/*!******************************************************!*\
+  !*** ./src/assets/fonts/Arkitech/Arkitech-Light.ttf ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Arkitech-Light.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arkitech/Arkitech-Medium.ttf":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/Arkitech/Arkitech-Medium.ttf ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Arkitech-Medium.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Expansiva/Expansiva.otf":
+/*!**************************************************!*\
+  !*** ./src/assets/fonts/Expansiva/Expansiva.otf ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Expansiva.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/expansiva/Expansiva-bold.otf":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/expansiva/Expansiva-bold.otf ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Expansiva-bold.otf";
+
+/***/ }),
+
 /***/ "./src/assets/images/backgrounds/About.svg":
 /*!*************************************************!*\
   !*** ./src/assets/images/backgrounds/About.svg ***!
@@ -6327,46 +6367,6 @@ module.exports = __webpack_require__.p + "Skills.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "contact.svg";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/Arkitech/Arkitech-Light.ttf":
-/*!******************************************************!*\
-  !*** ./src/assets/fonts/Arkitech/Arkitech-Light.ttf ***!
-  \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "Arkitech-Light.ttf";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/Arkitech/Arkitech-Medium.ttf":
-/*!*******************************************************!*\
-  !*** ./src/assets/fonts/Arkitech/Arkitech-Medium.ttf ***!
-  \*******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "Arkitech-Medium.ttf";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/Expansiva/Expansiva.otf":
-/*!**************************************************!*\
-  !*** ./src/assets/fonts/Expansiva/Expansiva.otf ***!
-  \**************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "Expansiva.otf";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/expansiva/Expansiva-bold.otf":
-/*!*******************************************************!*\
-  !*** ./src/assets/fonts/expansiva/Expansiva-bold.otf ***!
-  \*******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "Expansiva-bold.otf";
 
 /***/ }),
 

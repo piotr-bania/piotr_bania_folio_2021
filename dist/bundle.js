@@ -62453,7 +62453,7 @@ spotLight.shadow.mapSize.width = 1024 * 4;
 spotLight.shadow.mapSize.height = 1024 * 4;
 scene.add(spotLight); // ----------------- HDRI -----------------
 
-new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoader().load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
+new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoader().load("../src/HDRI/gamrig_1k.hdr", function (texture) {
   texture.mapping = three__WEBPACK_IMPORTED_MODULE_3__.EquirectangularReflectionMapping;
   scene.environment = texture;
 }); // ----------------- 3d models -----------------

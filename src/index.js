@@ -86,7 +86,7 @@ scene.add(spotLight)
 // ----------------- HDRI -----------------
 
 new RGBELoader()
-    .load("../src/assets/images/HDRI/gamrig_1k.hdr", function (texture) {
+    .load("../src/HDRI/gamrig_1k.hdr", function (texture) {
         texture.mapping = THREE.EquirectangularReflectionMapping
         scene.environment = texture
     })

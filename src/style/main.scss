@@ -138,7 +138,7 @@ a:hover {
 
 section {
     min-height: 100vh;
-    min-width: 100vw;
+    // min-width: 100vw;
     overflow: hidden;
     display: flex;
     padding: 75px 0;
@@ -368,6 +368,7 @@ section {
 .canvas-1 {
     position: fixed;
     top: 0;
+    left: 0;
     max-width: 100%;
     max-height: 100%;
 }

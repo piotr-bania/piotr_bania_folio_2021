@@ -97,7 +97,7 @@ new RGBELoader()
 
 // ----------------- 3d models -----------------
 
-import sphere from './models/sphere.glb'
+import sphere from './models/3d.glb'
 
 let modelsDistance = 5
 
@@ -408,10 +408,10 @@ window.addEventListener('scroll', () => {
 
 // ----------------- Helpers -----------------
 
-// const gridHelper = new THREE.GridHelper(10, 10)
-// scene.add(gridHelper)
-// const axesHelper = new THREE.AxesHelper(5)
-// scene.add(axesHelper)
+const gridHelper = new THREE.GridHelper(2, 2)
+scene.add(gridHelper)
+const axesHelper = new THREE.AxesHelper(5)
+scene.add(axesHelper)
 
 // ----------------- GUI -----------------/
 

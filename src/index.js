@@ -97,284 +97,282 @@ new RGBELoader()
 
 // ----------------- 3d models -----------------
 
-// import sphere from './models/sphere2.gltf'
+import sphere from './models/sphere.glb'
 
-// let modelsDistance = 5
+let modelsDistance = 5
 
-// // Model 1
-// let model_1 = new GLTFLoader()
-// model_1.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_1 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(0, 0, 0)
-//     gltf.scene.position.y = -modelsDistance * 0
+// Model 1
+let model_1 = new GLTFLoader()
+model_1.load(sphere, function (gltf) {
+    model_1 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(0, 0, 0)
+    gltf.scene.position.y = -modelsDistance * 0
 
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x7161F5,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x7161F5,
+        metalness: 1,
+        roughness: 0,
+        transmission: 1,
+        thickness: 0,
+    })
 
-//     model_1.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    model_1.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-//     model_1.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    model_1.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     // Animation
-//     gsap.to(model_1.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+    // Animation
+    gsap.to(model_1.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     scene.add(model_1)
-// })
+    scene.add(model_1)
+})
 
+// Model 2
+let model_2 = new GLTFLoader()
+model_2.load(sphere, function (gltf) {
+    model_2 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(-0.5, 0, -3)
+    gltf.scene.position.y = -modelsDistance * 1
 
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0xF57061,
+        metalness: 1,
+        roughness: 0,
+        transmission: 1,
+        thickness: 0,
+    })
 
-// // Model 2
-// let model_2 = new GLTFLoader()
-// model_2.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_2 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-0.5, 0, -3)
-//     gltf.scene.position.y = -modelsDistance * 1
+    model_2.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0xF57061,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
+    model_2.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     model_2.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_2.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_2.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    scene.add(model_2)
+})
 
-//     // Animation
-//     gsap.to(model_2.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+// Model 3
+let model_3 = new GLTFLoader()
+model_3.load(sphere, function (gltf) {
+    model_3 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(-2, 0, -1)
+    gltf.scene.position.y = -modelsDistance * 2
 
-//     scene.add(model_2)
-// })
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x61F570,
+        metalness: 1,
+        roughness: 0,
+        transmission: 1,
+        thickness: 0,
+    })
 
-// // Model 3
-// let model_3 = new GLTFLoader()
-// model_3.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_3 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 2
+    model_3.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x61F570,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
+    model_3.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     model_3.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_3.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_3.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    scene.add(model_3)
+})
 
-//     // Animation
-//     gsap.to(model_3.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+// Model 4
+let model_4 = new GLTFLoader()
+model_4.load(sphere, function (gltf) {
+    model_4 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(0.5, 0, -4)
+    gltf.scene.position.y = -modelsDistance * 2.75
 
-//     scene.add(model_3)
-// })
+    // Material
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x7161F5,
+        metalness: 0.9,
+        roughness: 0.1,
+        transmission: 0.9,
+        thickness: 0.1,
+    })
+    model_4.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-// // Model 4
-// let model_4 = new GLTFLoader()
-// model_4.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_4 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(0.5, 0, -4)
-//     gltf.scene.position.y = -modelsDistance * 2.75
+    model_4.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x7161F5,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_4.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_4.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_4.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    scene.add(model_4)
+})
 
-//     // Animation
-//     gsap.to(model_4.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+// Model 5
+let model_5 = new GLTFLoader()
+model_5.load(sphere, function (gltf) {
+    model_5 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(-2.5, 0, -1)
+    gltf.scene.position.y = -modelsDistance * 3.6
 
-//     scene.add(model_4)
-// })
+    // Material
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x040117,
+        metalness: 0.9,
+        roughness: 0.1,
+        transmission: 0.9,
+        thickness: 0.1,
+    })
+    model_5.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-// // Model 5
-// let model_5 = new GLTFLoader()
-// model_5.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_5 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2.5, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 3.6
+    model_5.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x040117,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_5.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_5.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_5.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    scene.add(model_5)
+})
 
-//     // Animation
-//     gsap.to(model_5.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+// Model 6
+let model_6 = new GLTFLoader()
+model_6.load(sphere, function (gltf) {
+    model_6 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(-1, 0, -1)
+    gltf.scene.position.y = -modelsDistance * 4.65
 
-//     scene.add(model_5)
-// })
+    // Material
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x61F570,
+        metalness: 0.9,
+        roughness: 0.1,
+        transmission: 0.9,
+        thickness: 0.1,
+    })
+    model_6.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-// // Model 6
-// let model_6 = new GLTFLoader()
-// model_6.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_6 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-1, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 4.65
+    model_6.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x61F570,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_6.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_6.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_6.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
+    scene.add(model_6)
+})
 
-//     // Animation
-//     gsap.to(model_6.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
+// Model 7
+let model_7 = new GLTFLoader()
+model_7.load(sphere, function (gltf) {
+    model_7 = gltf.scene
+    gltf.scene.scale.set(1, 1, 1)
+    gltf.scene.position.set(-2.5, 0, -1.5)
+    gltf.scene.position.y = -modelsDistance * 5.65
 
-//     scene.add(model_6)
-// })
+    // Material
+    const newMaterial = new THREE.MeshPhysicalMaterial({
+        color: 0x040117,
+        metalness: 0.9,
+        roughness: 0.1,
+        transmission: 0.9,
+        thickness: 0.1,
+    })
+    model_7.traverse((o) => {
+        if (o.isMesh) o.material = newMaterial
+    })
 
-// // Model 7
-// let model_7 = new GLTFLoader()
-// model_7.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_7 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2.5, 0, -1.5)
-//     gltf.scene.position.y = -modelsDistance * 5.65
+    model_7.traverse(n => {
+        if (n.isMesh) {
+            n.castShadow = true
+            n.receiveShadow = true
+            if (n.material.map) n.material.map.anisotropy = 16
+        }
+    })
 
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x040117,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_7.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
+    // Animation
+    gsap.to(model_7.rotation, {
+        duration: 500,
+        delay: 0,
+        y: -15,
+        repeat: -1
+    })
 
-//     model_7.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-
-//     // Animation
-//     gsap.to(model_7.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-
-//     scene.add(model_7)
-// })
+    scene.add(model_7)
+})
 
 // ----------------- Render -----------------
 
@@ -433,7 +431,7 @@ const tick = () => {
     const elapsedTime = clock.getElapsedTime()
 
     // Animate camera
-    // camera.position.y = -scrollY / sizes.height * modelsDistance
+    camera.position.y = -scrollY / sizes.height * modelsDistance
 
     // Render
     renderer.render(scene, camera)

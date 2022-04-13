@@ -231,6 +231,20 @@ module.exports = function (item) {
 
 /***/ }),
 
+/***/ "./src/models/sphere.glb":
+/*!*******************************!*\
+  !*** ./src/models/sphere.glb ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "abe60eb4995f14cdb721aae8c92a1856.glb");
+
+/***/ }),
+
 /***/ "./src/particles/twirl_03.png":
 /*!************************************!*\
   !*** ./src/particles/twirl_03.png ***!
@@ -62424,6 +62438,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
 /* harmony import */ var _particles_twirl_03_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./particles/twirl_03.png */ "./src/particles/twirl_03.png");
 /* harmony import */ var _hdri_gamrig_1k_hdr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./hdri/gamrig_1k.hdr */ "./src/hdri/gamrig_1k.hdr");
+/* harmony import */ var _models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./models/sphere.glb */ "./src/models/sphere.glb");
 
 
 
@@ -62489,244 +62504,244 @@ new three_examples_jsm_loaders_RGBELoader__WEBPACK_IMPORTED_MODULE_2__.RGBELoade
   texture.mapping = three__WEBPACK_IMPORTED_MODULE_3__.EquirectangularReflectionMapping;
   scene.environment = texture;
 }); // ----------------- 3d models -----------------
-// import sphere from './models/sphere2.gltf'
-// let modelsDistance = 5
-// // Model 1
-// let model_1 = new GLTFLoader()
-// model_1.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_1 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(0, 0, 0)
-//     gltf.scene.position.y = -modelsDistance * 0
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x7161F5,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
-//     model_1.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_1.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_1.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_1)
-// })
-// // Model 2
-// let model_2 = new GLTFLoader()
-// model_2.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_2 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-0.5, 0, -3)
-//     gltf.scene.position.y = -modelsDistance * 1
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0xF57061,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
-//     model_2.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_2.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_2.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_2)
-// })
-// // Model 3
-// let model_3 = new GLTFLoader()
-// model_3.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_3 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 2
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x61F570,
-//         metalness: 1,
-//         roughness: 0,
-//         transmission: 1,
-//         thickness: 0,
-//     })
-//     model_3.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_3.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_3.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_3)
-// })
-// // Model 4
-// let model_4 = new GLTFLoader()
-// model_4.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_4 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(0.5, 0, -4)
-//     gltf.scene.position.y = -modelsDistance * 2.75
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x7161F5,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_4.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_4.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_4.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_4)
-// })
-// // Model 5
-// let model_5 = new GLTFLoader()
-// model_5.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_5 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2.5, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 3.6
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x040117,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_5.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_5.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_5.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_5)
-// })
-// // Model 6
-// let model_6 = new GLTFLoader()
-// model_6.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_6 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-1, 0, -1)
-//     gltf.scene.position.y = -modelsDistance * 4.65
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x61F570,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_6.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_6.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_6.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_6)
-// })
-// // Model 7
-// let model_7 = new GLTFLoader()
-// model_7.load("../src/models/sphere2.gltf", function (gltf) {
-//     model_7 = gltf.scene
-//     gltf.scene.scale.set(1, 1, 1)
-//     gltf.scene.position.set(-2.5, 0, -1.5)
-//     gltf.scene.position.y = -modelsDistance * 5.65
-//     // Material
-//     const newMaterial = new THREE.MeshPhysicalMaterial({
-//         color: 0x040117,
-//         metalness: 0.9,
-//         roughness: 0.1,
-//         transmission: 0.9,
-//         thickness: 0.1,
-//     })
-//     model_7.traverse((o) => {
-//         if (o.isMesh) o.material = newMaterial
-//     })
-//     model_7.traverse(n => {
-//         if (n.isMesh) {
-//             n.castShadow = true
-//             n.receiveShadow = true
-//             if (n.material.map) n.material.map.anisotropy = 16
-//         }
-//     })
-//     // Animation
-//     gsap.to(model_7.rotation, {
-//         duration: 500,
-//         delay: 0,
-//         y: -15,
-//         repeat: -1
-//     })
-//     scene.add(model_7)
-// })
-// ----------------- Render -----------------
+
+
+var modelsDistance = 5; // Model 1
+
+var model_1 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_1.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_1 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(0, 0, 0);
+  gltf.scene.position.y = -modelsDistance * 0;
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x7161F5,
+    metalness: 1,
+    roughness: 0,
+    transmission: 1,
+    thickness: 0
+  });
+  model_1.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_1.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_1.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_1);
+}); // Model 2
+
+var model_2 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_2.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_2 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-0.5, 0, -3);
+  gltf.scene.position.y = -modelsDistance * 1;
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0xF57061,
+    metalness: 1,
+    roughness: 0,
+    transmission: 1,
+    thickness: 0
+  });
+  model_2.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_2.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_2.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_2);
+}); // Model 3
+
+var model_3 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_3.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_3 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 2;
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x61F570,
+    metalness: 1,
+    roughness: 0,
+    transmission: 1,
+    thickness: 0
+  });
+  model_3.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_3.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_3.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_3);
+}); // Model 4
+
+var model_4 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_4.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_4 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(0.5, 0, -4);
+  gltf.scene.position.y = -modelsDistance * 2.75; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x7161F5,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_4.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_4.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_4.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_4);
+}); // Model 5
+
+var model_5 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_5.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_5 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2.5, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 3.6; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x040117,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_5.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_5.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_5.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_5);
+}); // Model 6
+
+var model_6 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_6.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_6 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-1, 0, -1);
+  gltf.scene.position.y = -modelsDistance * 4.65; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x61F570,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_6.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_6.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_6.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_6);
+}); // Model 7
+
+var model_7 = new three_examples_jsm_loaders_GLTFLoader__WEBPACK_IMPORTED_MODULE_1__.GLTFLoader();
+model_7.load(_models_sphere_glb__WEBPACK_IMPORTED_MODULE_7__["default"], function (gltf) {
+  model_7 = gltf.scene;
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.position.set(-2.5, 0, -1.5);
+  gltf.scene.position.y = -modelsDistance * 5.65; // Material
+
+  var newMaterial = new three__WEBPACK_IMPORTED_MODULE_3__.MeshPhysicalMaterial({
+    color: 0x040117,
+    metalness: 0.9,
+    roughness: 0.1,
+    transmission: 0.9,
+    thickness: 0.1
+  });
+  model_7.traverse(function (o) {
+    if (o.isMesh) o.material = newMaterial;
+  });
+  model_7.traverse(function (n) {
+    if (n.isMesh) {
+      n.castShadow = true;
+      n.receiveShadow = true;
+      if (n.material.map) n.material.map.anisotropy = 16;
+    }
+  }); // Animation
+
+  gsap__WEBPACK_IMPORTED_MODULE_5__.gsap.to(model_7.rotation, {
+    duration: 500,
+    delay: 0,
+    y: -15,
+    repeat: -1
+  });
+  scene.add(model_7);
+}); // ----------------- Render -----------------
 // Render 1
 
 var renderer = new three__WEBPACK_IMPORTED_MODULE_3__.WebGLRenderer({
@@ -62767,8 +62782,8 @@ var clock = new three__WEBPACK_IMPORTED_MODULE_3__.Clock();
 
 var tick = function tick() {
   var elapsedTime = clock.getElapsedTime(); // Animate camera
-  // camera.position.y = -scrollY / sizes.height * modelsDistance
-  // Render
+
+  camera.position.y = -scrollY / sizes.height * modelsDistance; // Render
 
   renderer.render(scene, camera); // Call tick again on the next frame
 

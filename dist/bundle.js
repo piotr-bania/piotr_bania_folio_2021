@@ -62831,7 +62831,7 @@ var renderer = new three__WEBPACK_IMPORTED_MODULE_3__.WebGLRenderer({
   alpha: true
 });
 renderer.toneMapping = three__WEBPACK_IMPORTED_MODULE_3__.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1;
+renderer.toneMappingExposure = 0.4;
 renderer.outputEncoding = three__WEBPACK_IMPORTED_MODULE_3__.sRGBEncoding;
 renderer.setSize(sizes.width, sizes.height);
 document.body.appendChild(renderer.domElement); // ----------------- Section paralax -----------------
@@ -62874,12 +62874,8 @@ var tick = function tick() {
 tick(); // ----------------- Animation -----------------
 
 function animate() {
-  requestAnimationFrame(animate); // spotLight.position.set(
-  //     camera.position.x + 10,
-  //     camera.position.y + 10,
-  //     camera.position.z + 10
-  // )
-  // controls.update()
+  requestAnimationFrame(animate);
+  spotLight.position.set(camera.position.x + 10, camera.position.y + 10, camera.position.z + 10); // controls.update()
 
   renderer.render(scene, camera);
 }

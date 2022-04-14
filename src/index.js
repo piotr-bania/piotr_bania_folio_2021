@@ -426,7 +426,7 @@ const renderer = new THREE.WebGLRenderer({
 })
 
 renderer.toneMapping = THREE.ACESFilmicToneMapping
-renderer.toneMappingExposure = 1
+renderer.toneMappingExposure = 0.4
 renderer.outputEncoding = THREE.sRGBEncoding
 
 renderer.setSize(sizes.width, sizes.height)
@@ -489,11 +489,11 @@ tick()
 function animate() {
     requestAnimationFrame(animate)
 
-    // spotLight.position.set(
-    //     camera.position.x + 10,
-    //     camera.position.y + 10,
-    //     camera.position.z + 10
-    // )
+    spotLight.position.set(
+        camera.position.x + 10,
+        camera.position.y + 10,
+        camera.position.z + 10
+    )
 
     // controls.update()
     renderer.render(scene, camera)

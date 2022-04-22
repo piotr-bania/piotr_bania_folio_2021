@@ -421,7 +421,7 @@ span {
 #section-b {
     .container {
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(11);
+        grid-template-rows: repeat(11, 1fr);
 
         .current,
         .other {
@@ -500,7 +500,7 @@ span {
 #section-c {
     .container {
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2);
+        grid-template-rows: repeat(2, 1fr);
 
         .lab {
             grid-area: 1 / 3 / 2 / 12;
@@ -554,46 +554,81 @@ span {
     }
 }
 
+// ------------------------------ Skills section ------------------------------
+
+#section-d {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .skills {
+            grid-area: 1 / 3 / 2 / 12;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .skill {
+            grid-area: 2 / 1 / 3 / 5;
+        }
+    }
+}
+
 // ------------------------------ About section ------------------------------
 
 #section-e {
-    .vl {
-        border-left: 2px solid var(--purple);
-        height: 300px;
-        position: absolute;
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .about {
+            grid-area: 1 / 3 / 2 / 12;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .about1 {
+            grid-area: 2 / 1 / 3 / 5;
+        }
+    }
+}
+
+// ------------------------------ Contact section ------------------------------
+
+#section-f {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        .contact {
+            grid-area: 1 / 3 / 2 / 12;
+            padding-top: 50px;
+            padding-bottom: 100px;
+        }
+
+        .contact1 {
+            grid-area: 2 / 1 / 3 / 6;
+        }
+
+        .contact2 {
+            grid-area: 2 / 8 / 3 / 13;
+        }
+
+        .credits {
+            grid-area: 3 / 5 / 4 / 9;
+            text-align: center;
+            color: var(--grey-text);
+            align-self: flex-end;
+        }
     }
 
-    p {
-        position: relative;
-        left: 20px;
-        max-width: 80%;
-        display: inline;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
-    }
 
-    .purple {
-        color: var(--purple);
-    }
 
-    .purple-blue {
-        color: var(--purple-blue);
-    }
-
-    .blue-turquoise {
-        color: var(--blue-turquoise);
-    }
-
-    .red {
-        color: var(--red);
-    }
-
-    .green {
-        color: var(--green);
-    }
-
-    .grey {
-        color: var(--grey-text);
-    }
+.fa-solid {
+    color: var(--green);
 }
 
 // ------------------------------ Buttons ------------------------------

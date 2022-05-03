@@ -1,11 +1,11 @@
 // ----------------- Header animation -----------------
 
 const words = [
-    "develop web apps",
-    "build mobile apps",
-    "shape Metaverse",
+    "develop webapps",
+    "build interfaces",
     "design in 3D",
-    "create things"
+    "create things",
+    "keep learning"
 ]
 
 let cursor = gsap.to('.cursor', {

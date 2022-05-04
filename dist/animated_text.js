@@ -1,5 +1,5 @@
 // ----------------- Header animation -----------------
-var words = ["develop web apps", "build mobile apps", "shape Metaverse", "design in 3D", "create things"];
+var words = ["develop webapps", "build interfaces", "design in 3D", "create things", "keep learning"];
 var cursor = gsap.to('.cursor', {
   opacity: 0,
   ease: "power2.inOut",

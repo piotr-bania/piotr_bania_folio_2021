@@ -490,6 +490,15 @@ span {
         .project6 {
             grid-area: 9 / 4 / 11 / 8;
         }
+
+        a {
+            text-decoration: underline;
+            color: var(--purple);
+
+            &:hover {
+                color: var(--green);
+            }
+        }
     }
 }
 
@@ -534,6 +543,12 @@ span {
 
                 a {
                     padding-left: 50px;
+                    text-decoration: underline;
+                    color: var(--purple);
+        
+                    &:hover {
+                        color: var(--green);
+                    }
                 }
             }
         }

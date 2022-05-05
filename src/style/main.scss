@@ -545,7 +545,7 @@ span {
                     padding-left: 50px;
                     text-decoration: underline;
                     color: var(--purple);
-        
+
                     &:hover {
                         color: var(--green);
                     }
@@ -657,7 +657,6 @@ span {
 #section-e {
     .container {
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2);
 
         .about {
             grid-area: 1 / 3 / 2 / 12;
@@ -665,8 +664,48 @@ span {
             padding-bottom: 100px;
         }
 
+        .about0,
+        .about1,
+        .about2,
+        .about3,
+        .about4,
+        .about5,
+        .about6 {
+            padding-bottom: 100px;
+
+            p {
+                strong {
+                    color: var(--red);
+                }
+            }
+        }
+
+        .about0 {
+            grid-area: 2 / 1 / 3 / 13;
+        }
+
         .about1 {
-            grid-area: 2 / 1 / 3 / 11;
+            grid-area: 3 / 1 / 4 / 5;
+        }
+
+        .about2 {
+            grid-area: 3 / 5 / 4 / 9;
+        }
+
+        .about3 {
+            grid-area: 3 / 9 / 4 / 13;
+        }
+
+        .about4 {
+            grid-area: 4 / 1 / 5 / 5;
+        }
+
+        .about5 {
+            grid-area: 4 / 5 / 5 / 9;
+        }
+
+        .about6 {
+            grid-area: 4 / 9 / 5 / 13;
         }
     }
 }
@@ -982,6 +1021,45 @@ button {
             }
         }
     }
+
+    #section-e {
+        .container {
+
+            .about0,
+            .about1,
+            .about2,
+            .about3,
+            .about4,
+            .about5,
+            .about6 {
+                padding-bottom: 80px;
+            }
+
+            .about1 {
+                grid-area: 3 / 1 / 4 / 7;
+            }
+
+            .about2 {
+                grid-area: 3 / 7 / 4 / 13;
+            }
+
+            .about3 {
+                grid-area: 4 / 1 / 5 / 7;
+            }
+
+            .about4 {
+                grid-area: 4 / 7 / 5 / 13;
+            }
+
+            .about5 {
+                grid-area: 5 / 1 / 6 / 7;
+            }
+
+            .about6 {
+                grid-area: 5 / 7 / 6 / 13;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1205,6 +1283,45 @@ button {
 
             .skill12 {
                 grid-area: 8 / 7 / 9 / 13;
+            }
+        }
+    }
+
+    #section-e {
+        .container {
+
+            .about0,
+            .about1,
+            .about2,
+            .about3,
+            .about4,
+            .about5,
+            .about6 {
+                padding-bottom: 40px;
+            }
+
+            .about1 {
+                grid-area: 3 / 1 / 4 / 13;
+            }
+
+            .about2 {
+                grid-area: 4 / 1 / 5 / 13;
+            }
+
+            .about3 {
+                grid-area: 5 / 1 / 6 / 13;
+            }
+
+            .about4 {
+                grid-area: 6 / 1 / 7 / 13;
+            }
+
+            .about5 {
+                grid-area: 7 / 1 / 8 / 13;
+            }
+
+            .about6 {
+                grid-area: 8 / 1 / 9 / 13;
             }
         }
     }

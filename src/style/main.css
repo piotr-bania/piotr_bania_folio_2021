@@ -793,6 +793,7 @@ span {
 #section-e .container {
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  gap: 40px;
 }
 
 #section-e .container .about {
@@ -805,7 +806,10 @@ span {
   padding-bottom: 100px;
 }
 
-#section-e .container .about0,
+#section-e .container .about0 {
+  padding-bottom: 100px;
+}
+
 #section-e .container .about1,
 #section-e .container .about2,
 #section-e .container .about3,
@@ -813,9 +817,22 @@ span {
 #section-e .container .about5,
 #section-e .container .about6 {
   padding-bottom: 100px;
+  background-color: rgba(97, 245, 112, 0.5);
+  border-radius: 26px 8px 16px 8px;
+  height: 120px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
-#section-e .container .about0 p strong,
 #section-e .container .about1 p strong,
 #section-e .container .about2 p strong,
 #section-e .container .about3 p strong,
@@ -1169,8 +1186,6 @@ button:hover {
   #section-a .container {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: ()[2];
-        grid-template-rows: repeat(2);
   }
   #section-a .container .heroText {
     -ms-grid-row: 2;
@@ -1182,8 +1197,6 @@ button:hover {
   #section-b .container {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: ()[12];
-        grid-template-rows: repeat(12);
   }
   #section-b .container .current,
   #section-b .container .other {
@@ -1251,8 +1264,6 @@ button:hover {
   #section-c .container {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: ()[6];
-        grid-template-rows: repeat(6);
   }
   #section-c .container .lab1 {
     -ms-grid-row: 2;
@@ -1363,7 +1374,9 @@ button:hover {
     -ms-grid-column-span: 3;
     grid-area: 4 / 10 / 5 / 13;
   }
-  #section-e .container .about0,
+  #section-e .container .about0 {
+    padding-bottom: 80px;
+  }
   #section-e .container .about1,
   #section-e .container .about2,
   #section-e .container .about3,
@@ -1371,6 +1384,8 @@ button:hover {
   #section-e .container .about5,
   #section-e .container .about6 {
     padding-bottom: 80px;
+    height: 110px;
+    padding: 20px;
   }
   #section-e .container .about1 {
     -ms-grid-row: 3;
@@ -1505,8 +1520,6 @@ button:hover {
   #section-a .container {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: ()[2];
-        grid-template-rows: repeat(2);
   }
   #section-a .container .heroText {
     -ms-grid-row: 2;
@@ -1518,8 +1531,6 @@ button:hover {
   #section-b .container {
     -ms-grid-columns: (1fr)[12];
         grid-template-columns: repeat(12, 1fr);
-    -ms-grid-rows: ()[12];
-        grid-template-rows: repeat(12);
   }
   #section-b .container .current,
   #section-b .container .other {
@@ -1718,7 +1729,9 @@ button:hover {
     -ms-grid-column-span: 6;
     grid-area: 8 / 7 / 9 / 13;
   }
-  #section-e .container .about0,
+  #section-e .container .about0 {
+    padding-bottom: 40px;
+  }
   #section-e .container .about1,
   #section-e .container .about2,
   #section-e .container .about3,
@@ -1726,48 +1739,50 @@ button:hover {
   #section-e .container .about5,
   #section-e .container .about6 {
     padding-bottom: 40px;
+    height: 100px;
+    padding: 20px;
   }
   #section-e .container .about1 {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 3 / 1 / 4 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 3 / 2 / 4 / 12;
   }
   #section-e .container .about2 {
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 4 / 1 / 5 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 4 / 2 / 5 / 12;
   }
   #section-e .container .about3 {
     -ms-grid-row: 5;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 5 / 1 / 6 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 5 / 2 / 6 / 12;
   }
   #section-e .container .about4 {
     -ms-grid-row: 6;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 6 / 1 / 7 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 6 / 2 / 7 / 12;
   }
   #section-e .container .about5 {
     -ms-grid-row: 7;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 7 / 1 / 8 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 7 / 2 / 8 / 12;
   }
   #section-e .container .about6 {
     -ms-grid-row: 8;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-area: 8 / 1 / 9 / 13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-area: 8 / 2 / 9 / 12;
   }
   #section-f .container .contact1,
   #section-f .container .contact2,

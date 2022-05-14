@@ -2,7 +2,7 @@
 This is my personal portfolio website made with Three.js library.
 
 <h3>Link to the final project:</h3>
-https://piotrbania.dev/
+https://piotrbania.dev
 <br>
 <br>
 

@@ -442,9 +442,9 @@ span {
             img, video {
                 width: 80%;
                 margin-left: 20%;
-                border: 1px solid var(--purple);
+                border: 1px solid transparent;
                 border-radius: 20px;
-                opacity: 0.5;
+                opacity: 0.85;
                 filter: grayscale(100%);
                 transition: all 0.3s ease-in-out;
             }
